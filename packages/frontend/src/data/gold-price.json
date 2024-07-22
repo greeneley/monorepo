@@ -1,0 +1,2368 @@
+{
+  "avplsjc_hcm": [
+    {
+      "buy": 78500,
+      "date_label": "22/07/2024",
+      "label": "AVPL/SJC HCM",
+      "sell": 80000
+    },
+    {
+      "buy": 78500,
+      "date_label": "21/07/2024",
+      "label": "AVPL/SJC HCM",
+      "sell": 80000
+    },
+    {
+      "buy": 78500,
+      "date_label": "20/07/2024",
+      "label": "AVPL/SJC HCM",
+      "sell": 80000
+    },
+    {
+      "buy": 78500,
+      "date_label": "19/07/2024",
+      "label": "AVPL/SJC HCM",
+      "sell": 80000
+    },
+    {
+      "buy": 78500,
+      "date_label": "18/07/2024",
+      "label": "AVPL/SJC HCM",
+      "sell": 80000
+    },
+    {
+      "buy": 76000,
+      "date_label": "17/07/2024",
+      "label": "AVPL/SJC HCM",
+      "sell": 76980
+    },
+    {
+      "buy": 75500,
+      "date_label": "16/07/2024",
+      "label": "AVPL/SJC HCM",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "15/07/2024",
+      "label": "AVPL/SJC HCM",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "14/07/2024",
+      "label": "AVPL/SJC HCM",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "13/07/2024",
+      "label": "AVPL/SJC HCM",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "12/07/2024",
+      "label": "AVPL/SJC HCM",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "11/07/2024",
+      "label": "AVPL/SJC HCM",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "10/07/2024",
+      "label": "AVPL/SJC HCM",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "09/07/2024",
+      "label": "AVPL/SJC HCM",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "08/07/2024",
+      "label": "AVPL/SJC HCM",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "07/07/2024",
+      "label": "AVPL/SJC HCM",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "06/07/2024",
+      "label": "AVPL/SJC HCM",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "05/07/2024",
+      "label": "AVPL/SJC HCM",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "04/07/2024",
+      "label": "AVPL/SJC HCM",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "03/07/2024",
+      "label": "AVPL/SJC HCM",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "02/07/2024",
+      "label": "AVPL/SJC HCM",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "01/07/2024",
+      "label": "AVPL/SJC HCM",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "30/06/2024",
+      "label": "AVPL/SJC HCM",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "29/06/2024",
+      "label": "AVPL/SJC HCM",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "28/06/2024",
+      "label": "AVPL/SJC HCM",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "27/06/2024",
+      "label": "AVPL/SJC HCM",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "26/06/2024",
+      "label": "AVPL/SJC HCM",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "25/06/2024",
+      "label": "AVPL/SJC HCM",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "24/06/2024",
+      "label": "AVPL/SJC HCM",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "23/06/2024",
+      "label": "AVPL/SJC HCM",
+      "sell": 76980
+    }
+  ],
+  "avplsjc_hn": [
+    {
+      "buy": 78000,
+      "date_label": "22/07/2024",
+      "label": "AVPL/SJC HN",
+      "sell": 80000
+    },
+    {
+      "buy": 78500,
+      "date_label": "21/07/2024",
+      "label": "AVPL/SJC HN",
+      "sell": 80000
+    },
+    {
+      "buy": 78500,
+      "date_label": "20/07/2024",
+      "label": "AVPL/SJC HN",
+      "sell": 80000
+    },
+    {
+      "buy": 78500,
+      "date_label": "19/07/2024",
+      "label": "AVPL/SJC HN",
+      "sell": 80000
+    },
+    {
+      "buy": 78500,
+      "date_label": "18/07/2024",
+      "label": "AVPL/SJC HN",
+      "sell": 80000
+    },
+    {
+      "buy": 76000,
+      "date_label": "17/07/2024",
+      "label": "AVPL/SJC HN",
+      "sell": 76980
+    },
+    {
+      "buy": 75500,
+      "date_label": "16/07/2024",
+      "label": "AVPL/SJC HN",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "15/07/2024",
+      "label": "AVPL/SJC HN",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "14/07/2024",
+      "label": "AVPL/SJC HN",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "13/07/2024",
+      "label": "AVPL/SJC HN",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "12/07/2024",
+      "label": "AVPL/SJC HN",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "11/07/2024",
+      "label": "AVPL/SJC HN",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "10/07/2024",
+      "label": "AVPL/SJC HN",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "09/07/2024",
+      "label": "AVPL/SJC HN",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "08/07/2024",
+      "label": "AVPL/SJC HN",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "07/07/2024",
+      "label": "AVPL/SJC HN",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "06/07/2024",
+      "label": "AVPL/SJC HN",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "05/07/2024",
+      "label": "AVPL/SJC HN",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "04/07/2024",
+      "label": "AVPL/SJC HN",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "03/07/2024",
+      "label": "AVPL/SJC HN",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "02/07/2024",
+      "label": "AVPL/SJC HN",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "01/07/2024",
+      "label": "AVPL/SJC HN",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "30/06/2024",
+      "label": "AVPL/SJC HN",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "29/06/2024",
+      "label": "AVPL/SJC HN",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "28/06/2024",
+      "label": "AVPL/SJC HN",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "27/06/2024",
+      "label": "AVPL/SJC HN",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "26/06/2024",
+      "label": "AVPL/SJC HN",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "25/06/2024",
+      "label": "AVPL/SJC HN",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "24/06/2024",
+      "label": "AVPL/SJC HN",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "23/06/2024",
+      "label": "AVPL/SJC HN",
+      "sell": 76980
+    }
+  ],
+  "gia_vang_nu_trang_nhan_pnj_(24k)": [
+    {
+      "buy": 75850,
+      "date_label": "22/07/2024",
+      "label": "Nhẫn PNJ 24K",
+      "sell": 77190
+    },
+    {
+      "buy": 75700,
+      "date_label": "21/07/2024",
+      "label": "Nhẫn PNJ 24K",
+      "sell": 77190
+    },
+    {
+      "buy": 75700,
+      "date_label": "20/07/2024",
+      "label": "Nhẫn PNJ 24K",
+      "sell": 77190
+    },
+    {
+      "buy": 76000,
+      "date_label": "19/07/2024",
+      "label": "Nhẫn PNJ 24K",
+      "sell": 77370
+    },
+    {
+      "buy": 76300,
+      "date_label": "18/07/2024",
+      "label": "Nhẫn PNJ 24K",
+      "sell": 77590
+    },
+    {
+      "buy": 76300,
+      "date_label": "17/07/2024",
+      "label": "Nhẫn PNJ 24K",
+      "sell": 77000
+    },
+    {
+      "buy": 75500,
+      "date_label": "16/07/2024",
+      "label": "Nhẫn PNJ 24K",
+      "sell": 76900
+    },
+    {
+      "buy": 75150,
+      "date_label": "15/07/2024",
+      "label": "Nhẫn PNJ 24K",
+      "sell": 76600
+    },
+    {
+      "buy": 75150,
+      "date_label": "14/07/2024",
+      "label": "Nhẫn PNJ 24K",
+      "sell": 76600
+    },
+    {
+      "buy": 75150,
+      "date_label": "13/07/2024",
+      "label": "Nhẫn PNJ 24K",
+      "sell": 76600
+    },
+    {
+      "buy": 75150,
+      "date_label": "12/07/2024",
+      "label": "Nhẫn PNJ 24K",
+      "sell": 76600
+    },
+    {
+      "buy": 74650,
+      "date_label": "11/07/2024",
+      "label": "Nhẫn PNJ 24K",
+      "sell": 76200
+    },
+    {
+      "buy": 74300,
+      "date_label": "10/07/2024",
+      "label": "Nhẫn PNJ 24K",
+      "sell": 75900
+    },
+    {
+      "buy": 74300,
+      "date_label": "09/07/2024",
+      "label": "Nhẫn PNJ 24K",
+      "sell": 75900
+    },
+    {
+      "buy": 74600,
+      "date_label": "08/07/2024",
+      "label": "Nhẫn PNJ 24K",
+      "sell": 76100
+    },
+    {
+      "buy": 74600,
+      "date_label": "07/07/2024",
+      "label": "Nhẫn PNJ 24K",
+      "sell": 76100
+    },
+    {
+      "buy": 74600,
+      "date_label": "06/07/2024",
+      "label": "Nhẫn PNJ 24K",
+      "sell": 76100
+    },
+    {
+      "buy": 74400,
+      "date_label": "05/07/2024",
+      "label": "Nhẫn PNJ 24K",
+      "sell": 76000
+    },
+    {
+      "buy": 74400,
+      "date_label": "04/07/2024",
+      "label": "Nhẫn PNJ 24K",
+      "sell": 76000
+    },
+    {
+      "buy": 74100,
+      "date_label": "03/07/2024",
+      "label": "Nhẫn PNJ 24K",
+      "sell": 75800
+    },
+    {
+      "buy": 73950,
+      "date_label": "02/07/2024",
+      "label": "Nhẫn PNJ 24K",
+      "sell": 75600
+    },
+    {
+      "buy": 73950,
+      "date_label": "01/07/2024",
+      "label": "Nhẫn PNJ 24K",
+      "sell": 75600
+    },
+    {
+      "buy": 73950,
+      "date_label": "30/06/2024",
+      "label": "Nhẫn PNJ 24K",
+      "sell": 75600
+    },
+    {
+      "buy": 73950,
+      "date_label": "29/06/2024",
+      "label": "Nhẫn PNJ 24K",
+      "sell": 75600
+    },
+    {
+      "buy": 73950,
+      "date_label": "28/06/2024",
+      "label": "Nhẫn PNJ 24K",
+      "sell": 75600
+    },
+    {
+      "buy": 73700,
+      "date_label": "27/06/2024",
+      "label": "Nhẫn PNJ 24K",
+      "sell": 75400
+    },
+    {
+      "buy": 73850,
+      "date_label": "26/06/2024",
+      "label": "Nhẫn PNJ 24K",
+      "sell": 75500
+    },
+    {
+      "buy": 73950,
+      "date_label": "25/06/2024",
+      "label": "Nhẫn PNJ 24K",
+      "sell": 75600
+    },
+    {
+      "buy": 73950,
+      "date_label": "24/06/2024",
+      "label": "Nhẫn PNJ 24K",
+      "sell": 75600
+    },
+    {
+      "buy": 73950,
+      "date_label": "23/06/2024",
+      "label": "Nhẫn PNJ 24K",
+      "sell": 75600
+    }
+  ],
+  "gia_vang_nu_trang_nu_trang_24k": [
+    {
+      "buy": 75800,
+      "date_label": "22/07/2024",
+      "label": "Nữ trang PNJ 24K",
+      "sell": 76600
+    },
+    {
+      "buy": 75600,
+      "date_label": "21/07/2024",
+      "label": "Nữ trang PNJ 24K",
+      "sell": 76400
+    },
+    {
+      "buy": 75600,
+      "date_label": "20/07/2024",
+      "label": "Nữ trang PNJ 24K",
+      "sell": 76400
+    },
+    {
+      "buy": 75900,
+      "date_label": "19/07/2024",
+      "label": "Nữ trang PNJ 24K",
+      "sell": 76700
+    },
+    {
+      "buy": 76200,
+      "date_label": "18/07/2024",
+      "label": "Nữ trang PNJ 24K",
+      "sell": 77000
+    },
+    {
+      "buy": 76200,
+      "date_label": "17/07/2024",
+      "label": "Nữ trang PNJ 24K",
+      "sell": 77000
+    },
+    {
+      "buy": 75400,
+      "date_label": "16/07/2024",
+      "label": "Nữ trang PNJ 24K",
+      "sell": 76200
+    },
+    {
+      "buy": 75100,
+      "date_label": "15/07/2024",
+      "label": "Nữ trang PNJ 24K",
+      "sell": 75900
+    },
+    {
+      "buy": 75100,
+      "date_label": "14/07/2024",
+      "label": "Nữ trang PNJ 24K",
+      "sell": 75900
+    },
+    {
+      "buy": 75100,
+      "date_label": "13/07/2024",
+      "label": "Nữ trang PNJ 24K",
+      "sell": 75900
+    },
+    {
+      "buy": 75100,
+      "date_label": "12/07/2024",
+      "label": "Nữ trang PNJ 24K",
+      "sell": 75900
+    },
+    {
+      "buy": 74600,
+      "date_label": "11/07/2024",
+      "label": "Nữ trang PNJ 24K",
+      "sell": 75400
+    },
+    {
+      "buy": 74200,
+      "date_label": "10/07/2024",
+      "label": "Nữ trang PNJ 24K",
+      "sell": 75000
+    },
+    {
+      "buy": 74200,
+      "date_label": "09/07/2024",
+      "label": "Nữ trang PNJ 24K",
+      "sell": 75000
+    },
+    {
+      "buy": 74500,
+      "date_label": "08/07/2024",
+      "label": "Nữ trang PNJ 24K",
+      "sell": 75300
+    },
+    {
+      "buy": 74500,
+      "date_label": "07/07/2024",
+      "label": "Nữ trang PNJ 24K",
+      "sell": 75300
+    },
+    {
+      "buy": 74500,
+      "date_label": "06/07/2024",
+      "label": "Nữ trang PNJ 24K",
+      "sell": 75300
+    },
+    {
+      "buy": 74300,
+      "date_label": "05/07/2024",
+      "label": "Nữ trang PNJ 24K",
+      "sell": 75100
+    },
+    {
+      "buy": 74300,
+      "date_label": "04/07/2024",
+      "label": "Nữ trang PNJ 24K",
+      "sell": 75100
+    },
+    {
+      "buy": 74000,
+      "date_label": "03/07/2024",
+      "label": "Nữ trang PNJ 24K",
+      "sell": 74800
+    },
+    {
+      "buy": 73900,
+      "date_label": "02/07/2024",
+      "label": "Nữ trang PNJ 24K",
+      "sell": 74700
+    },
+    {
+      "buy": 73900,
+      "date_label": "01/07/2024",
+      "label": "Nữ trang PNJ 24K",
+      "sell": 74700
+    },
+    {
+      "buy": 73900,
+      "date_label": "30/06/2024",
+      "label": "Nữ trang PNJ 24K",
+      "sell": 74700
+    },
+    {
+      "buy": 73900,
+      "date_label": "29/06/2024",
+      "label": "Nữ trang PNJ 24K",
+      "sell": 74700
+    },
+    {
+      "buy": 73900,
+      "date_label": "28/06/2024",
+      "label": "Nữ trang PNJ 24K",
+      "sell": 74700
+    },
+    {
+      "buy": 73600,
+      "date_label": "27/06/2024",
+      "label": "Nữ trang PNJ 24K",
+      "sell": 74400
+    },
+    {
+      "buy": 73800,
+      "date_label": "26/06/2024",
+      "label": "Nữ trang PNJ 24K",
+      "sell": 74600
+    },
+    {
+      "buy": 73900,
+      "date_label": "25/06/2024",
+      "label": "Nữ trang PNJ 24K",
+      "sell": 74700
+    },
+    {
+      "buy": 73900,
+      "date_label": "24/06/2024",
+      "label": "Nữ trang PNJ 24K",
+      "sell": 74700
+    },
+    {
+      "buy": 73900,
+      "date_label": "23/06/2024",
+      "label": "Nữ trang PNJ 24K",
+      "sell": 74700
+    }
+  ],
+  "ha_noi_pnj": [
+    {
+      "buy": 75850,
+      "date_label": "22/07/2024",
+      "label": "Hà Nội PNJ",
+      "sell": 77190
+    },
+    {
+      "buy": 75700,
+      "date_label": "21/07/2024",
+      "label": "Hà Nội PNJ",
+      "sell": 77190
+    },
+    {
+      "buy": 75700,
+      "date_label": "20/07/2024",
+      "label": "Hà Nội PNJ",
+      "sell": 77190
+    },
+    {
+      "buy": 76000,
+      "date_label": "19/07/2024",
+      "label": "Hà Nội PNJ",
+      "sell": 77370
+    },
+    {
+      "buy": 76300,
+      "date_label": "18/07/2024",
+      "label": "Hà Nội PNJ",
+      "sell": 77590
+    },
+    {
+      "buy": 76300,
+      "date_label": "17/07/2024",
+      "label": "Hà Nội PNJ",
+      "sell": 77000
+    },
+    {
+      "buy": 75500,
+      "date_label": "16/07/2024",
+      "label": "Hà Nội PNJ",
+      "sell": 76900
+    },
+    {
+      "buy": 75150,
+      "date_label": "15/07/2024",
+      "label": "Hà Nội PNJ",
+      "sell": 76600
+    },
+    {
+      "buy": 75150,
+      "date_label": "14/07/2024",
+      "label": "Hà Nội PNJ",
+      "sell": 76600
+    },
+    {
+      "buy": 75150,
+      "date_label": "13/07/2024",
+      "label": "Hà Nội PNJ",
+      "sell": 76600
+    },
+    {
+      "buy": 75150,
+      "date_label": "12/07/2024",
+      "label": "Hà Nội PNJ",
+      "sell": 76600
+    },
+    {
+      "buy": 74650,
+      "date_label": "11/07/2024",
+      "label": "Hà Nội PNJ",
+      "sell": 76200
+    },
+    {
+      "buy": 74300,
+      "date_label": "10/07/2024",
+      "label": "Hà Nội PNJ",
+      "sell": 75900
+    },
+    {
+      "buy": 74300,
+      "date_label": "09/07/2024",
+      "label": "Hà Nội PNJ",
+      "sell": 75900
+    },
+    {
+      "buy": 74600,
+      "date_label": "08/07/2024",
+      "label": "Hà Nội PNJ",
+      "sell": 76100
+    },
+    {
+      "buy": 74600,
+      "date_label": "07/07/2024",
+      "label": "Hà Nội PNJ",
+      "sell": 76100
+    },
+    {
+      "buy": 74600,
+      "date_label": "06/07/2024",
+      "label": "Hà Nội PNJ",
+      "sell": 76100
+    },
+    {
+      "buy": 74400,
+      "date_label": "05/07/2024",
+      "label": "Hà Nội PNJ",
+      "sell": 76000
+    },
+    {
+      "buy": 74400,
+      "date_label": "04/07/2024",
+      "label": "Hà Nội PNJ",
+      "sell": 76000
+    },
+    {
+      "buy": 74100,
+      "date_label": "03/07/2024",
+      "label": "Hà Nội PNJ",
+      "sell": 75800
+    },
+    {
+      "buy": 73950,
+      "date_label": "02/07/2024",
+      "label": "Hà Nội PNJ",
+      "sell": 75600
+    },
+    {
+      "buy": 73950,
+      "date_label": "01/07/2024",
+      "label": "Hà Nội PNJ",
+      "sell": 75600
+    },
+    {
+      "buy": 73950,
+      "date_label": "30/06/2024",
+      "label": "Hà Nội PNJ",
+      "sell": 75600
+    },
+    {
+      "buy": 73950,
+      "date_label": "29/06/2024",
+      "label": "Hà Nội PNJ",
+      "sell": 75600
+    },
+    {
+      "buy": 73950,
+      "date_label": "28/06/2024",
+      "label": "Hà Nội PNJ",
+      "sell": 75600
+    },
+    {
+      "buy": 73700,
+      "date_label": "27/06/2024",
+      "label": "Hà Nội PNJ",
+      "sell": 75400
+    },
+    {
+      "buy": 73850,
+      "date_label": "26/06/2024",
+      "label": "Hà Nội PNJ",
+      "sell": 75500
+    },
+    {
+      "buy": 73950,
+      "date_label": "25/06/2024",
+      "label": "Hà Nội PNJ",
+      "sell": 75600
+    },
+    {
+      "buy": 73950,
+      "date_label": "24/06/2024",
+      "label": "Hà Nội PNJ",
+      "sell": 75600
+    },
+    {
+      "buy": 73950,
+      "date_label": "23/06/2024",
+      "label": "Hà Nội PNJ",
+      "sell": 75600
+    }
+  ],
+  "ha_noi_sjc": [
+    {
+      "buy": 78500,
+      "date_label": "22/07/2024",
+      "label": "Hà Nội SJC",
+      "sell": 80000
+    },
+    {
+      "buy": 78500,
+      "date_label": "21/07/2024",
+      "label": "Hà Nội SJC",
+      "sell": 80000
+    },
+    {
+      "buy": 78500,
+      "date_label": "20/07/2024",
+      "label": "Hà Nội SJC",
+      "sell": 80000
+    },
+    {
+      "buy": 78500,
+      "date_label": "19/07/2024",
+      "label": "Hà Nội SJC",
+      "sell": 80000
+    },
+    {
+      "buy": 78500,
+      "date_label": "18/07/2024",
+      "label": "Hà Nội SJC",
+      "sell": 80000
+    },
+    {
+      "buy": 75980,
+      "date_label": "17/07/2024",
+      "label": "Hà Nội SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 75480,
+      "date_label": "16/07/2024",
+      "label": "Hà Nội SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 75480,
+      "date_label": "15/07/2024",
+      "label": "Hà Nội SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 75480,
+      "date_label": "14/07/2024",
+      "label": "Hà Nội SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 75480,
+      "date_label": "13/07/2024",
+      "label": "Hà Nội SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 75480,
+      "date_label": "12/07/2024",
+      "label": "Hà Nội SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "11/07/2024",
+      "label": "Hà Nội SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "10/07/2024",
+      "label": "Hà Nội SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "09/07/2024",
+      "label": "Hà Nội SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "08/07/2024",
+      "label": "Hà Nội SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "07/07/2024",
+      "label": "Hà Nội SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "06/07/2024",
+      "label": "Hà Nội SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "05/07/2024",
+      "label": "Hà Nội SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "04/07/2024",
+      "label": "Hà Nội SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "03/07/2024",
+      "label": "Hà Nội SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "02/07/2024",
+      "label": "Hà Nội SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "01/07/2024",
+      "label": "Hà Nội SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "30/06/2024",
+      "label": "Hà Nội SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "29/06/2024",
+      "label": "Hà Nội SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "28/06/2024",
+      "label": "Hà Nội SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "27/06/2024",
+      "label": "Hà Nội SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "26/06/2024",
+      "label": "Hà Nội SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "25/06/2024",
+      "label": "Hà Nội SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "24/06/2024",
+      "label": "Hà Nội SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "23/06/2024",
+      "label": "Hà Nội SJC",
+      "sell": 76980
+    }
+  ],
+  "sjc_1l_10l": [
+    {
+      "buy": 78000,
+      "date_label": "22/07/2024",
+      "label": "SJC 1L, 10L, 1KG",
+      "sell": 80000
+    },
+    {
+      "buy": 78000,
+      "date_label": "21/07/2024",
+      "label": "SJC 1L, 10L, 1KG",
+      "sell": 80000
+    },
+    {
+      "buy": 78000,
+      "date_label": "20/07/2024",
+      "label": "SJC 1L, 10L, 1KG",
+      "sell": 80000
+    },
+    {
+      "buy": 78500,
+      "date_label": "19/07/2024",
+      "label": "SJC 1L, 10L, 1KG",
+      "sell": 80000
+    },
+    {
+      "buy": 78500,
+      "date_label": "18/07/2024",
+      "label": "SJC 1L, 10L, 1KG",
+      "sell": 80000
+    },
+    {
+      "buy": 75980,
+      "date_label": "17/07/2024",
+      "label": "SJC 1L, 10L, 1KG",
+      "sell": 76980
+    },
+    {
+      "buy": 75480,
+      "date_label": "16/07/2024",
+      "label": "SJC 1L, 10L, 1KG",
+      "sell": 76980
+    },
+    {
+      "buy": 75480,
+      "date_label": "15/07/2024",
+      "label": "SJC 1L, 10L, 1KG",
+      "sell": 76980
+    },
+    {
+      "buy": 75480,
+      "date_label": "14/07/2024",
+      "label": "SJC 1L, 10L, 1KG",
+      "sell": 76980
+    },
+    {
+      "buy": 75480,
+      "date_label": "13/07/2024",
+      "label": "SJC 1L, 10L, 1KG",
+      "sell": 76980
+    },
+    {
+      "buy": 75480,
+      "date_label": "12/07/2024",
+      "label": "SJC 1L, 10L, 1KG",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "11/07/2024",
+      "label": "SJC 1L, 10L, 1KG",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "10/07/2024",
+      "label": "SJC 1L, 10L, 1KG",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "09/07/2024",
+      "label": "SJC 1L, 10L, 1KG",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "08/07/2024",
+      "label": "SJC 1L, 10L, 1KG",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "07/07/2024",
+      "label": "SJC 1L, 10L, 1KG",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "06/07/2024",
+      "label": "SJC 1L, 10L, 1KG",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "05/07/2024",
+      "label": "SJC 1L, 10L, 1KG",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "04/07/2024",
+      "label": "SJC 1L, 10L, 1KG",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "03/07/2024",
+      "label": "SJC 1L, 10L, 1KG",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "02/07/2024",
+      "label": "SJC 1L, 10L, 1KG",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "01/07/2024",
+      "label": "SJC 1L, 10L, 1KG",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "30/06/2024",
+      "label": "SJC 1L, 10L, 1KG",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "29/06/2024",
+      "label": "SJC 1L, 10L, 1KG",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "28/06/2024",
+      "label": "SJC 1L, 10L, 1KG",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "27/06/2024",
+      "label": "SJC 1L, 10L, 1KG",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "26/06/2024",
+      "label": "SJC 1L, 10L, 1KG",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "25/06/2024",
+      "label": "SJC 1L, 10L, 1KG",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "24/06/2024",
+      "label": "SJC 1L, 10L, 1KG",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "23/06/2024",
+      "label": "SJC 1L, 10L, 1KG",
+      "sell": 76980
+    }
+  ],
+  "sjc_2c_1c_5_phan": [
+    {
+      "buy": 78000,
+      "date_label": "22/07/2024",
+      "label": "SJC 2c, 1C, 5 phân",
+      "sell": 80030
+    },
+    {
+      "buy": 78000,
+      "date_label": "21/07/2024",
+      "label": "SJC 2c, 1C, 5 phân",
+      "sell": 80030
+    },
+    {
+      "buy": 78000,
+      "date_label": "20/07/2024",
+      "label": "SJC 2c, 1C, 5 phân",
+      "sell": 80030
+    },
+    {
+      "buy": 78500,
+      "date_label": "19/07/2024",
+      "label": "SJC 2c, 1C, 5 phân",
+      "sell": 80030
+    },
+    {
+      "buy": 78500,
+      "date_label": "18/07/2024",
+      "label": "SJC 2c, 1C, 5 phân",
+      "sell": 80030
+    },
+    {
+      "buy": 75980,
+      "date_label": "17/07/2024",
+      "label": "SJC 2c, 1C, 5 phân",
+      "sell": 77010
+    },
+    {
+      "buy": 75480,
+      "date_label": "16/07/2024",
+      "label": "SJC 2c, 1C, 5 phân",
+      "sell": 77010
+    },
+    {
+      "buy": 75480,
+      "date_label": "15/07/2024",
+      "label": "SJC 2c, 1C, 5 phân",
+      "sell": 77010
+    },
+    {
+      "buy": 75480,
+      "date_label": "14/07/2024",
+      "label": "SJC 2c, 1C, 5 phân",
+      "sell": 77010
+    },
+    {
+      "buy": 75480,
+      "date_label": "13/07/2024",
+      "label": "SJC 2c, 1C, 5 phân",
+      "sell": 77010
+    },
+    {
+      "buy": 75480,
+      "date_label": "12/07/2024",
+      "label": "SJC 2c, 1C, 5 phân",
+      "sell": 77010
+    },
+    {
+      "buy": 74980,
+      "date_label": "11/07/2024",
+      "label": "SJC 2c, 1C, 5 phân",
+      "sell": 77010
+    },
+    {
+      "buy": 74980,
+      "date_label": "10/07/2024",
+      "label": "SJC 2c, 1C, 5 phân",
+      "sell": 77010
+    },
+    {
+      "buy": 74980,
+      "date_label": "09/07/2024",
+      "label": "SJC 2c, 1C, 5 phân",
+      "sell": 77010
+    },
+    {
+      "buy": 74980,
+      "date_label": "08/07/2024",
+      "label": "SJC 2c, 1C, 5 phân",
+      "sell": 77010
+    },
+    {
+      "buy": 74980,
+      "date_label": "07/07/2024",
+      "label": "SJC 2c, 1C, 5 phân",
+      "sell": 77010
+    },
+    {
+      "buy": 74980,
+      "date_label": "06/07/2024",
+      "label": "SJC 2c, 1C, 5 phân",
+      "sell": 77010
+    },
+    {
+      "buy": 74980,
+      "date_label": "05/07/2024",
+      "label": "SJC 2c, 1C, 5 phân",
+      "sell": 77010
+    },
+    {
+      "buy": 74980,
+      "date_label": "04/07/2024",
+      "label": "SJC 2c, 1C, 5 phân",
+      "sell": 77010
+    },
+    {
+      "buy": 74980,
+      "date_label": "03/07/2024",
+      "label": "SJC 2c, 1C, 5 phân",
+      "sell": 77010
+    },
+    {
+      "buy": 74980,
+      "date_label": "02/07/2024",
+      "label": "SJC 2c, 1C, 5 phân",
+      "sell": 77010
+    },
+    {
+      "buy": 74980,
+      "date_label": "01/07/2024",
+      "label": "SJC 2c, 1C, 5 phân",
+      "sell": 77010
+    },
+    {
+      "buy": 74980,
+      "date_label": "30/06/2024",
+      "label": "SJC 2c, 1C, 5 phân",
+      "sell": 77010
+    },
+    {
+      "buy": 74980,
+      "date_label": "29/06/2024",
+      "label": "SJC 2c, 1C, 5 phân",
+      "sell": 77010
+    },
+    {
+      "buy": 74980,
+      "date_label": "28/06/2024",
+      "label": "SJC 2c, 1C, 5 phân",
+      "sell": 77010
+    },
+    {
+      "buy": 74980,
+      "date_label": "27/06/2024",
+      "label": "SJC 2c, 1C, 5 phân",
+      "sell": 77010
+    },
+    {
+      "buy": 74980,
+      "date_label": "26/06/2024",
+      "label": "SJC 2c, 1C, 5 phân",
+      "sell": 77010
+    },
+    {
+      "buy": 74980,
+      "date_label": "25/06/2024",
+      "label": "SJC 2c, 1C, 5 phân",
+      "sell": 77010
+    },
+    {
+      "buy": 74980,
+      "date_label": "24/06/2024",
+      "label": "SJC 2c, 1C, 5 phân",
+      "sell": 77010
+    },
+    {
+      "buy": 74980,
+      "date_label": "23/06/2024",
+      "label": "SJC 2c, 1C, 5 phân",
+      "sell": 77010
+    }
+  ],
+  "sjc_5c": [
+    {
+      "buy": 78000,
+      "date_label": "22/07/2024",
+      "label": "SJC 5c",
+      "sell": 80020
+    },
+    {
+      "buy": 78000,
+      "date_label": "21/07/2024",
+      "label": "SJC 5c",
+      "sell": 80020
+    },
+    {
+      "buy": 78000,
+      "date_label": "20/07/2024",
+      "label": "SJC 5c",
+      "sell": 80020
+    },
+    {
+      "buy": 78500,
+      "date_label": "19/07/2024",
+      "label": "SJC 5c",
+      "sell": 80020
+    },
+    {
+      "buy": 78500,
+      "date_label": "18/07/2024",
+      "label": "SJC 5c",
+      "sell": 80020
+    },
+    {
+      "buy": 75980,
+      "date_label": "17/07/2024",
+      "label": "SJC 5c",
+      "sell": 77000
+    },
+    {
+      "buy": 75480,
+      "date_label": "16/07/2024",
+      "label": "SJC 5c",
+      "sell": 77000
+    },
+    {
+      "buy": 75480,
+      "date_label": "15/07/2024",
+      "label": "SJC 5c",
+      "sell": 77000
+    },
+    {
+      "buy": 75480,
+      "date_label": "14/07/2024",
+      "label": "SJC 5c",
+      "sell": 77000
+    },
+    {
+      "buy": 75480,
+      "date_label": "13/07/2024",
+      "label": "SJC 5c",
+      "sell": 77000
+    },
+    {
+      "buy": 75480,
+      "date_label": "12/07/2024",
+      "label": "SJC 5c",
+      "sell": 77000
+    },
+    {
+      "buy": 74980,
+      "date_label": "11/07/2024",
+      "label": "SJC 5c",
+      "sell": 77000
+    },
+    {
+      "buy": 74980,
+      "date_label": "10/07/2024",
+      "label": "SJC 5c",
+      "sell": 77000
+    },
+    {
+      "buy": 74980,
+      "date_label": "09/07/2024",
+      "label": "SJC 5c",
+      "sell": 77000
+    },
+    {
+      "buy": 74980,
+      "date_label": "08/07/2024",
+      "label": "SJC 5c",
+      "sell": 77000
+    },
+    {
+      "buy": 74980,
+      "date_label": "07/07/2024",
+      "label": "SJC 5c",
+      "sell": 77000
+    },
+    {
+      "buy": 74980,
+      "date_label": "06/07/2024",
+      "label": "SJC 5c",
+      "sell": 77000
+    },
+    {
+      "buy": 74980,
+      "date_label": "05/07/2024",
+      "label": "SJC 5c",
+      "sell": 77000
+    },
+    {
+      "buy": 74980,
+      "date_label": "04/07/2024",
+      "label": "SJC 5c",
+      "sell": 77000
+    },
+    {
+      "buy": 74980,
+      "date_label": "03/07/2024",
+      "label": "SJC 5c",
+      "sell": 77000
+    },
+    {
+      "buy": 74980,
+      "date_label": "02/07/2024",
+      "label": "SJC 5c",
+      "sell": 77000
+    },
+    {
+      "buy": 74980,
+      "date_label": "01/07/2024",
+      "label": "SJC 5c",
+      "sell": 77000
+    },
+    {
+      "buy": 74980,
+      "date_label": "30/06/2024",
+      "label": "SJC 5c",
+      "sell": 77000
+    },
+    {
+      "buy": 74980,
+      "date_label": "29/06/2024",
+      "label": "SJC 5c",
+      "sell": 77000
+    },
+    {
+      "buy": 74980,
+      "date_label": "28/06/2024",
+      "label": "SJC 5c",
+      "sell": 77000
+    },
+    {
+      "buy": 74980,
+      "date_label": "27/06/2024",
+      "label": "SJC 5c",
+      "sell": 77000
+    },
+    {
+      "buy": 74980,
+      "date_label": "26/06/2024",
+      "label": "SJC 5c",
+      "sell": 77000
+    },
+    {
+      "buy": 74980,
+      "date_label": "25/06/2024",
+      "label": "SJC 5c",
+      "sell": 77000
+    },
+    {
+      "buy": 74980,
+      "date_label": "24/06/2024",
+      "label": "SJC 5c",
+      "sell": 77000
+    },
+    {
+      "buy": 74980,
+      "date_label": "23/06/2024",
+      "label": "SJC 5c",
+      "sell": 77000
+    }
+  ],
+  "thegioi": [
+    {
+      "buy": 2391.1,
+      "date_label": "22/07/2024",
+      "label": "Giá vàng thế giới",
+      "sell": 2392.1
+    },
+    {
+      "buy": 2400.8,
+      "date_label": "21/07/2024",
+      "label": "Giá vàng thế giới",
+      "sell": 2401.8
+    },
+    {
+      "buy": 2400.8,
+      "date_label": "20/07/2024",
+      "label": "Giá vàng thế giới",
+      "sell": 2401.8
+    },
+    {
+      "buy": 2401.5,
+      "date_label": "19/07/2024",
+      "label": "Giá vàng thế giới",
+      "sell": 2402.5
+    },
+    {
+      "buy": 2457,
+      "date_label": "18/07/2024",
+      "label": "Giá vàng thế giới",
+      "sell": 2458
+    },
+    {
+      "buy": 2455,
+      "date_label": "17/07/2024",
+      "label": "Giá vàng thế giới",
+      "sell": 2456
+    },
+    {
+      "buy": 2458.9,
+      "date_label": "16/07/2024",
+      "label": "Giá vàng thế giới",
+      "sell": 2459.9
+    },
+    {
+      "buy": 2436.4,
+      "date_label": "15/07/2024",
+      "label": "Giá vàng thế giới",
+      "sell": 2437.4
+    },
+    {
+      "buy": 2410.6,
+      "date_label": "14/07/2024",
+      "label": "Giá vàng thế giới",
+      "sell": 2411.6
+    },
+    {
+      "buy": 2410.6,
+      "date_label": "13/07/2024",
+      "label": "Giá vàng thế giới",
+      "sell": 2411.6
+    },
+    {
+      "buy": 2414.8,
+      "date_label": "12/07/2024",
+      "label": "Giá vàng thế giới",
+      "sell": 2415.8
+    },
+    {
+      "buy": 2413.7,
+      "date_label": "11/07/2024",
+      "label": "Giá vàng thế giới",
+      "sell": 2414.7
+    },
+    {
+      "buy": 2376.5,
+      "date_label": "10/07/2024",
+      "label": "Giá vàng thế giới",
+      "sell": 2377.5
+    },
+    {
+      "buy": 2357.1,
+      "date_label": "09/07/2024",
+      "label": "Giá vàng thế giới",
+      "sell": 2358.1
+    },
+    {
+      "buy": 2354.9,
+      "date_label": "08/07/2024",
+      "label": "Giá vàng thế giới",
+      "sell": 2355.9
+    },
+    {
+      "buy": 2388.6,
+      "date_label": "07/07/2024",
+      "label": "Giá vàng thế giới",
+      "sell": 2389.6
+    },
+    {
+      "buy": 2388.6,
+      "date_label": "06/07/2024",
+      "label": "Giá vàng thế giới",
+      "sell": 2389.6
+    },
+    {
+      "buy": 2385.1,
+      "date_label": "05/07/2024",
+      "label": "Giá vàng thế giới",
+      "sell": 2386.1
+    },
+    {
+      "buy": 2356.5,
+      "date_label": "04/07/2024",
+      "label": "Giá vàng thế giới",
+      "sell": 2357.5
+    },
+    {
+      "buy": 2358.3,
+      "date_label": "03/07/2024",
+      "label": "Giá vàng thế giới",
+      "sell": 2359.3
+    },
+    {
+      "buy": 2321.3,
+      "date_label": "02/07/2024",
+      "label": "Giá vàng thế giới",
+      "sell": 2322.3
+    },
+    {
+      "buy": 2327.9,
+      "date_label": "01/07/2024",
+      "label": "Giá vàng thế giới",
+      "sell": 2328.9
+    },
+    {
+      "buy": 2326,
+      "date_label": "30/06/2024",
+      "label": "Giá vàng thế giới",
+      "sell": 2327
+    },
+    {
+      "buy": 2326,
+      "date_label": "29/06/2024",
+      "label": "Giá vàng thế giới",
+      "sell": 2327
+    },
+    {
+      "buy": 2327.9,
+      "date_label": "28/06/2024",
+      "label": "Giá vàng thế giới",
+      "sell": 2328.9
+    },
+    {
+      "buy": 2324.4,
+      "date_label": "27/06/2024",
+      "label": "Giá vàng thế giới",
+      "sell": 2325.4
+    },
+    {
+      "buy": 2298.9,
+      "date_label": "26/06/2024",
+      "label": "Giá vàng thế giới",
+      "sell": 2299.9
+    },
+    {
+      "buy": 2318.8,
+      "date_label": "25/06/2024",
+      "label": "Giá vàng thế giới",
+      "sell": 2319.8
+    },
+    {
+      "buy": 2329.9,
+      "date_label": "24/06/2024",
+      "label": "Giá vàng thế giới",
+      "sell": 2330.9
+    },
+    {
+      "buy": 2320,
+      "date_label": "23/06/2024",
+      "label": "Giá vàng thế giới",
+      "sell": 2321
+    }
+  ],
+  "tphcm_pnj": [
+    {
+      "buy": 75850,
+      "date_label": "22/07/2024",
+      "label": "TPHCM PNJ",
+      "sell": 77190
+    },
+    {
+      "buy": 75700,
+      "date_label": "21/07/2024",
+      "label": "TPHCM PNJ",
+      "sell": 77190
+    },
+    {
+      "buy": 75700,
+      "date_label": "20/07/2024",
+      "label": "TPHCM PNJ",
+      "sell": 77190
+    },
+    {
+      "buy": 76000,
+      "date_label": "19/07/2024",
+      "label": "TPHCM PNJ",
+      "sell": 77370
+    },
+    {
+      "buy": 76300,
+      "date_label": "18/07/2024",
+      "label": "TPHCM PNJ",
+      "sell": 77590
+    },
+    {
+      "buy": 76300,
+      "date_label": "17/07/2024",
+      "label": "TPHCM PNJ",
+      "sell": 77000
+    },
+    {
+      "buy": 75500,
+      "date_label": "16/07/2024",
+      "label": "TPHCM PNJ",
+      "sell": 76900
+    },
+    {
+      "buy": 75150,
+      "date_label": "15/07/2024",
+      "label": "TPHCM PNJ",
+      "sell": 76600
+    },
+    {
+      "buy": 75150,
+      "date_label": "14/07/2024",
+      "label": "TPHCM PNJ",
+      "sell": 76600
+    },
+    {
+      "buy": 75150,
+      "date_label": "13/07/2024",
+      "label": "TPHCM PNJ",
+      "sell": 76600
+    },
+    {
+      "buy": 75150,
+      "date_label": "12/07/2024",
+      "label": "TPHCM PNJ",
+      "sell": 76600
+    },
+    {
+      "buy": 74650,
+      "date_label": "11/07/2024",
+      "label": "TPHCM PNJ",
+      "sell": 76200
+    },
+    {
+      "buy": 74300,
+      "date_label": "10/07/2024",
+      "label": "TPHCM PNJ",
+      "sell": 75900
+    },
+    {
+      "buy": 74300,
+      "date_label": "09/07/2024",
+      "label": "TPHCM PNJ",
+      "sell": 75900
+    },
+    {
+      "buy": 74600,
+      "date_label": "08/07/2024",
+      "label": "TPHCM PNJ",
+      "sell": 76100
+    },
+    {
+      "buy": 74600,
+      "date_label": "07/07/2024",
+      "label": "TPHCM PNJ",
+      "sell": 76100
+    },
+    {
+      "buy": 74600,
+      "date_label": "06/07/2024",
+      "label": "TPHCM PNJ",
+      "sell": 76100
+    },
+    {
+      "buy": 74400,
+      "date_label": "05/07/2024",
+      "label": "TPHCM PNJ",
+      "sell": 76000
+    },
+    {
+      "buy": 74400,
+      "date_label": "04/07/2024",
+      "label": "TPHCM PNJ",
+      "sell": 76000
+    },
+    {
+      "buy": 74100,
+      "date_label": "03/07/2024",
+      "label": "TPHCM PNJ",
+      "sell": 75800
+    },
+    {
+      "buy": 73950,
+      "date_label": "02/07/2024",
+      "label": "TPHCM PNJ",
+      "sell": 75600
+    },
+    {
+      "buy": 73950,
+      "date_label": "01/07/2024",
+      "label": "TPHCM PNJ",
+      "sell": 75600
+    },
+    {
+      "buy": 73950,
+      "date_label": "30/06/2024",
+      "label": "TPHCM PNJ",
+      "sell": 75600
+    },
+    {
+      "buy": 73950,
+      "date_label": "29/06/2024",
+      "label": "TPHCM PNJ",
+      "sell": 75600
+    },
+    {
+      "buy": 73950,
+      "date_label": "28/06/2024",
+      "label": "TPHCM PNJ",
+      "sell": 75600
+    },
+    {
+      "buy": 73700,
+      "date_label": "27/06/2024",
+      "label": "TPHCM PNJ",
+      "sell": 75400
+    },
+    {
+      "buy": 73850,
+      "date_label": "26/06/2024",
+      "label": "TPHCM PNJ",
+      "sell": 75500
+    },
+    {
+      "buy": 73950,
+      "date_label": "25/06/2024",
+      "label": "TPHCM PNJ",
+      "sell": 75600
+    },
+    {
+      "buy": 73950,
+      "date_label": "24/06/2024",
+      "label": "TPHCM PNJ",
+      "sell": 75600
+    },
+    {
+      "buy": 73950,
+      "date_label": "23/06/2024",
+      "label": "TPHCM PNJ",
+      "sell": 75600
+    }
+  ],
+  "tphcm_sjc": [
+    {
+      "buy": 78500,
+      "date_label": "22/07/2024",
+      "label": "TPHCM SJC",
+      "sell": 80000
+    },
+    {
+      "buy": 78500,
+      "date_label": "21/07/2024",
+      "label": "TPHCM SJC",
+      "sell": 80000
+    },
+    {
+      "buy": 78500,
+      "date_label": "20/07/2024",
+      "label": "TPHCM SJC",
+      "sell": 80000
+    },
+    {
+      "buy": 78500,
+      "date_label": "19/07/2024",
+      "label": "TPHCM SJC",
+      "sell": 80000
+    },
+    {
+      "buy": 78500,
+      "date_label": "18/07/2024",
+      "label": "TPHCM SJC",
+      "sell": 80000
+    },
+    {
+      "buy": 75980,
+      "date_label": "17/07/2024",
+      "label": "TPHCM SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 75480,
+      "date_label": "16/07/2024",
+      "label": "TPHCM SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 75480,
+      "date_label": "15/07/2024",
+      "label": "TPHCM SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 75480,
+      "date_label": "14/07/2024",
+      "label": "TPHCM SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 75480,
+      "date_label": "13/07/2024",
+      "label": "TPHCM SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 75480,
+      "date_label": "12/07/2024",
+      "label": "TPHCM SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "11/07/2024",
+      "label": "TPHCM SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "10/07/2024",
+      "label": "TPHCM SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "09/07/2024",
+      "label": "TPHCM SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "08/07/2024",
+      "label": "TPHCM SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "07/07/2024",
+      "label": "TPHCM SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "06/07/2024",
+      "label": "TPHCM SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "05/07/2024",
+      "label": "TPHCM SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "04/07/2024",
+      "label": "TPHCM SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "03/07/2024",
+      "label": "TPHCM SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "02/07/2024",
+      "label": "TPHCM SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "01/07/2024",
+      "label": "TPHCM SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "30/06/2024",
+      "label": "TPHCM SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "29/06/2024",
+      "label": "TPHCM SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "28/06/2024",
+      "label": "TPHCM SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "27/06/2024",
+      "label": "TPHCM SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "26/06/2024",
+      "label": "TPHCM SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "25/06/2024",
+      "label": "TPHCM SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "24/06/2024",
+      "label": "TPHCM SJC",
+      "sell": 76980
+    },
+    {
+      "buy": 74980,
+      "date_label": "23/06/2024",
+      "label": "TPHCM SJC",
+      "sell": 76980
+    }
+  ],
+  "vang_nhan_sjc_9999_1_chi_2_chi_5_chi": [
+    {
+      "buy": 75800,
+      "date_label": "22/07/2024",
+      "label": "Vàng nhẫn SJC 99,99  1 chỉ, 2 chỉ, 5 chỉ",
+      "sell": 77200
+    },
+    {
+      "buy": 75700,
+      "date_label": "21/07/2024",
+      "label": "Vàng nhẫn SJC 99,99  1 chỉ, 2 chỉ, 5 chỉ",
+      "sell": 77100
+    },
+    {
+      "buy": 75700,
+      "date_label": "20/07/2024",
+      "label": "Vàng nhẫn SJC 99,99  1 chỉ, 2 chỉ, 5 chỉ",
+      "sell": 77100
+    },
+    {
+      "buy": 75800,
+      "date_label": "19/07/2024",
+      "label": "Vàng nhẫn SJC 99,99  1 chỉ, 2 chỉ, 5 chỉ",
+      "sell": 77200
+    },
+    {
+      "buy": 76200,
+      "date_label": "18/07/2024",
+      "label": "Vàng nhẫn SJC 99,99  1 chỉ, 2 chỉ, 5 chỉ",
+      "sell": 77600
+    },
+    {
+      "buy": 75980,
+      "date_label": "17/07/2024",
+      "label": "Vàng nhẫn SJC 99,99  1 chỉ, 2 chỉ, 5 chỉ",
+      "sell": 76880
+    },
+    {
+      "buy": 75450,
+      "date_label": "16/07/2024",
+      "label": "Vàng nhẫn SJC 99,99  1 chỉ, 2 chỉ, 5 chỉ",
+      "sell": 76850
+    },
+    {
+      "buy": 75150,
+      "date_label": "15/07/2024",
+      "label": "Vàng nhẫn SJC 99,99  1 chỉ, 2 chỉ, 5 chỉ",
+      "sell": 76650
+    },
+    {
+      "buy": 75150,
+      "date_label": "14/07/2024",
+      "label": "Vàng nhẫn SJC 99,99  1 chỉ, 2 chỉ, 5 chỉ",
+      "sell": 76650
+    },
+    {
+      "buy": 75150,
+      "date_label": "13/07/2024",
+      "label": "Vàng nhẫn SJC 99,99  1 chỉ, 2 chỉ, 5 chỉ",
+      "sell": 76650
+    },
+    {
+      "buy": 75150,
+      "date_label": "12/07/2024",
+      "label": "Vàng nhẫn SJC 99,99  1 chỉ, 2 chỉ, 5 chỉ",
+      "sell": 76650
+    },
+    {
+      "buy": 74650,
+      "date_label": "11/07/2024",
+      "label": "Vàng nhẫn SJC 99,99  1 chỉ, 2 chỉ, 5 chỉ",
+      "sell": 76250
+    },
+    {
+      "buy": 74450,
+      "date_label": "10/07/2024",
+      "label": "Vàng nhẫn SJC 99,99  1 chỉ, 2 chỉ, 5 chỉ",
+      "sell": 76050
+    },
+    {
+      "buy": 74300,
+      "date_label": "09/07/2024",
+      "label": "Vàng nhẫn SJC 99,99  1 chỉ, 2 chỉ, 5 chỉ",
+      "sell": 75900
+    },
+    {
+      "buy": 74500,
+      "date_label": "08/07/2024",
+      "label": "Vàng nhẫn SJC 99,99  1 chỉ, 2 chỉ, 5 chỉ",
+      "sell": 76100
+    },
+    {
+      "buy": 74600,
+      "date_label": "07/07/2024",
+      "label": "Vàng nhẫn SJC 99,99  1 chỉ, 2 chỉ, 5 chỉ",
+      "sell": 76200
+    },
+    {
+      "buy": 74600,
+      "date_label": "06/07/2024",
+      "label": "Vàng nhẫn SJC 99,99  1 chỉ, 2 chỉ, 5 chỉ",
+      "sell": 76200
+    },
+    {
+      "buy": 74400,
+      "date_label": "05/07/2024",
+      "label": "Vàng nhẫn SJC 99,99  1 chỉ, 2 chỉ, 5 chỉ",
+      "sell": 76000
+    },
+    {
+      "buy": 74400,
+      "date_label": "04/07/2024",
+      "label": "Vàng nhẫn SJC 99,99  1 chỉ, 2 chỉ, 5 chỉ",
+      "sell": 76000
+    },
+    {
+      "buy": 74150,
+      "date_label": "03/07/2024",
+      "label": "Vàng nhẫn SJC 99,99  1 chỉ, 2 chỉ, 5 chỉ",
+      "sell": 75750
+    },
+    {
+      "buy": 74000,
+      "date_label": "02/07/2024",
+      "label": "Vàng nhẫn SJC 99,99  1 chỉ, 2 chỉ, 5 chỉ",
+      "sell": 75600
+    },
+    {
+      "buy": 73950,
+      "date_label": "01/07/2024",
+      "label": "Vàng nhẫn SJC 99,99  1 chỉ, 2 chỉ, 5 chỉ",
+      "sell": 75550
+    },
+    {
+      "buy": 73950,
+      "date_label": "30/06/2024",
+      "label": "Vàng nhẫn SJC 99,99  1 chỉ, 2 chỉ, 5 chỉ",
+      "sell": 75550
+    },
+    {
+      "buy": 73950,
+      "date_label": "29/06/2024",
+      "label": "Vàng nhẫn SJC 99,99  1 chỉ, 2 chỉ, 5 chỉ",
+      "sell": 75550
+    },
+    {
+      "buy": 73950,
+      "date_label": "28/06/2024",
+      "label": "Vàng nhẫn SJC 99,99  1 chỉ, 2 chỉ, 5 chỉ",
+      "sell": 75550
+    },
+    {
+      "buy": 73700,
+      "date_label": "27/06/2024",
+      "label": "Vàng nhẫn SJC 99,99  1 chỉ, 2 chỉ, 5 chỉ",
+      "sell": 75300
+    },
+    {
+      "buy": 73850,
+      "date_label": "26/06/2024",
+      "label": "Vàng nhẫn SJC 99,99  1 chỉ, 2 chỉ, 5 chỉ",
+      "sell": 75450
+    },
+    {
+      "buy": 73950,
+      "date_label": "25/06/2024",
+      "label": "Vàng nhẫn SJC 99,99  1 chỉ, 2 chỉ, 5 chỉ",
+      "sell": 75550
+    },
+    {
+      "buy": 73950,
+      "date_label": "24/06/2024",
+      "label": "Vàng nhẫn SJC 99,99  1 chỉ, 2 chỉ, 5 chỉ",
+      "sell": 75550
+    },
+    {
+      "buy": 73750,
+      "date_label": "23/06/2024",
+      "label": "Vàng nhẫn SJC 99,99  1 chỉ, 2 chỉ, 5 chỉ",
+      "sell": 75350
+    }
+  ]
+}
