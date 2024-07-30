@@ -7,7 +7,7 @@
   ],
   "scripts": {
     "start": "run-s start:*",
-    "start:frontend": "lerna run dev --scope frontend",
+    "start:frontend": "lerna run serve --scope frontend",
     "start:backend": "lerna run start --scope backend"
   },
 

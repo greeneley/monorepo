@@ -9,13 +9,9 @@ defineProps({
 
 <template>
   <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
-    <h3>
-      You’ve successfully created a project with
-      <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
-    </h3>
+    <h1 class="text-3xl font-bold text-blue underline">{{ msg }}</h1>
   </div>
+<!--    <h3>Cập nhật lúc: <span class="bg-white text-red-900">08:14:18 AM 30/07/2024</span></h3>-->
 </template>
 
 <style scoped>
