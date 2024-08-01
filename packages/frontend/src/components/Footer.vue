@@ -9,9 +9,8 @@ defineProps({
 
 <template>
   <div class="greetings">
-    <h1 class="text-3xl font-bold text-blue underline">{{ msg }}</h1>
+    <h1 class="font-bold text-yellow-400">{{ msg }}</h1>
   </div>
-<!--    <h3>Cập nhật lúc: <span class="bg-white text-red-900">08:14:18 AM 30/07/2024</span></h3>-->
 </template>
 
 <style scoped>

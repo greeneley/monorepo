@@ -1,13 +1,12 @@
 <script setup>
 import Footer from './components/Footer.vue'
 import Table from './components/Table.vue'
+import ChartView from '@/components/ChartView.vue'
 </script>
 
 <template>
-  <div>
-    <Footer msg="Thị trường giá vàng" />
-    <Table />
-  </div>
+  <Table />
+  <ChartView />
 </template>
 
 <style scoped>
