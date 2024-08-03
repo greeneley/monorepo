@@ -2,3 +2,7 @@ node_modules/!/.idea/
 !/.idea/prettier.xml
 
 /.idea/**
+
+node_modules
+
+packages/frontend/node_modules
