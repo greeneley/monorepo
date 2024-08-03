@@ -6,8 +6,7 @@
 #app {
   width: 100%;
   min-height: 100vh;
-  margin: auto;
-  padding: 2rem;
+  margin-top: 56px;
   font-weight: normal;
   gap: 16px;
 }
