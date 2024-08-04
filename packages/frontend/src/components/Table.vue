@@ -1,6 +1,7 @@
 <script setup>
 import items from '../data/table.json'
-
+import { useCounterStore } from '@/stores/counter.js'
+const store = useCounterStore()
 const headers = [
   { text: 'Loại vàng (VND/Lượng)', value: 'label', width: 400 },
   { text: 'Mua vào', value: 'buy', width: 150 },
@@ -9,6 +10,10 @@ const headers = [
 
 const onCustomBodyRow = (item, rowNumber) => {
   return 'row'
+}
+
+const onClick = () => {
+  store.increment()
 }
 </script>
 

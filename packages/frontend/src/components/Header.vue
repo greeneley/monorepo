@@ -5,6 +5,12 @@
         <a class="navbar-brand m-auto" href="/">GIÁ VÀNG</a>
       </div>
     </div>
+    <div class="nav-sub">
+      <div class="container">
+        <a class="nav-link m-auto" href="/">Tổng hợp giá vàng</a>
+        <a class="nav-link m-auto" href="/chart">Biểu đồ</a>
+      </div>
+    </div>
   </nav>
 </template>
 
@@ -24,9 +30,8 @@
 }
 
 .nav-logo {
-  border-bottom: .0625rem solid #0f599a;
+  border-bottom: 0.0625rem solid #0f599a;
 }
-
 
 .nav-logo .container {
   position: relative;
@@ -43,9 +48,34 @@
   color: white;
 }
 
+.nav-sub {
+  background-color: #fff;
+  text-align: left !important;
+  border-bottom: 1px solid #e7e7e7;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+}
+
+.nav-sub .container {
+  position: relative;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-sub .nav-link {
+  border-left: 1px dotted rgba(0, 0, 0, 0.2);
+  border-right: 1px dotted rgba(0, 0, 0, 0.2);
+  font-size: 1rem;
+  line-height: 30px;
+  padding: 5px 10px;
+  font-weight: 600;
+}
+
 a {
   text-decoration: none;
   background-color: transparent;
 }
-
 </style>
+<script setup></script>

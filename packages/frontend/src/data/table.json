@@ -1,18 +1,21 @@
 [
   {
     "id": 1,
+    "name": "avpl-sjc-hcm",
     "label": "AVPL/SJC HCM",
     "buy": 77000,
     "sell": 79000
   },
   {
     "id": 2,
+    "name": "hanoi-pnj",
     "label": "Hà Nội PNJ",
     "buy": 75700,
     "sell": 77020
   },
   {
     "id": 3,
+    "name": "hanoi-pnj",
     "label": "SJC 1L, 10L, 1KG",
     "buy": 77000,
     "sell": 79000
