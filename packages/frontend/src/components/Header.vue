@@ -7,8 +7,8 @@
     </div>
     <div class="nav-sub">
       <div class="container">
-        <a class="nav-link m-auto" href="/">Tổng hợp giá vàng</a>
-        <a class="nav-link m-auto" href="/chart">Biểu đồ</a>
+        <RouterLink class="nav-link m-auto" to="/home">Tổng hợp giá vàng</RouterLink>
+        <RouterLink class="nav-link m-auto" to="/chart">Biểu đồ</RouterLink>
       </div>
     </div>
   </nav>
