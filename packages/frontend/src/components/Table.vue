@@ -1,6 +1,7 @@
 <script setup>
 import items from '../data/table.json'
 import { useCounterStore } from '@/stores/counter.js'
+import GoldService from '@/services/GoldService.js'
 const store = useCounterStore()
 const headers = [
   { text: 'Loại vàng (VND/Lượng)', value: 'label', width: 400 },
@@ -15,6 +16,10 @@ const onCustomBodyRow = (item, rowNumber) => {
 const onClick = () => {
   store.increment()
 }
+
+// async function getData() {
+//   const items = await GoldService.getGoldPriceTable()?.data
+// }
 </script>
 
 <template>
