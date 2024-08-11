@@ -5,7 +5,8 @@ import { ref } from 'vue';
 const headers = [
   { text: 'Loại vàng (VND/Lượng)', value: 'label', width: 400 },
   { text: 'Mua vào', value: 'buy', width: 150 },
-  { text: 'Bán ra', value: 'sell', width: 150 }
+  { text: 'Bán ra', value: 'sell', width: 150 },
+  { text: 'Chênh lệch', value: 'spread', width: 150 }
 ];
 
 const goldPrices = ref([]);
@@ -29,7 +30,13 @@ getGoldPriceTable();
     hide-footer
     alternating
     :body-row-class-name="onCustomBodyRow"
-  />
+  >
+    <template #item-buy="item"> {{ new Intl.NumberFormat('en-us').format(item.buy) }}</template>
+    <template #item-sell="item"> {{ new Intl.NumberFormat('en-us').format(item.sell) }}</template>
+    <template #item-spread="item">
+      {{ new Intl.NumberFormat('en-us').format(item.sell - item.buy) }}</template
+    >
+  </EasyDataTable>
 </template>
 
 <style>
