@@ -9,6 +9,14 @@ class GoldController {
       next(error);
     }
   };
+
+  retrieveUpdateGoldTime = async (req, res, next) => {
+    try {
+      return res.status(200).json(await GoldService.retrieveUpdateGoldTime());
+    } catch (error) {
+      next(error);
+    }
+  };
 }
 
 module.exports = new GoldController();

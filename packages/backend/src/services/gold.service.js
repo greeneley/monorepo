@@ -1,15 +1,14 @@
 "use strict";
 const axios = require("axios");
-
+const { response } = require("express");
+const config = {
+  url: "https://gw.vnexpress.net/cr/?name=tygia_vangv202206",
+  method: "get",
+  maxBodyLength: Infinity,
+  headers: {},
+};
 class GoldService {
   static retrieveTotalGoldPrice = async () => {
-    let config = {
-      method: "get",
-      maxBodyLength: Infinity,
-      url: "https://gw.vnexpress.net/cr/?name=tygia_vangv202206",
-      headers: {},
-    };
-
     return await axios
       .request(config)
       .then((response) => {
@@ -28,6 +27,19 @@ class GoldService {
           },
         );
         return { data: filteredGoldData };
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  };
+
+  static retrieveUpdateGoldTime = async () => {
+    return await axios
+      .request(config)
+      .then((response) => {
+        return {
+          update_at: response.data?.data?.updated_at,
+        };
       })
       .catch((error) => {
         console.log(error);

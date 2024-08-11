@@ -1,11 +1,30 @@
 <script setup>
 import Table from '@/components/GoldPriceTable.vue';
 import { useRouter } from 'vue-router';
+import { ref } from 'vue';
+import GoldService from '@/services/GoldService.js';
 const router = useRouter();
+import { toDateFormat } from '../helper/parseDateTime.js';
+const updatedGoldTime = ref(null);
 
-const onClick = () => {
-  router.push({ name: 'chart' });
+const getUpdateGoldTime = async () => {
+  const response = await GoldService.getUpdateGoldTime();
+
+  const updateDateTime = toDateFormat(response.data.update_at);
+
+  updatedGoldTime.value =
+    updateDateTime.getHours() +
+    ':' +
+    updateDateTime.getMinutes() +
+    ' ngày ' +
+    updateDateTime.getUTCDate() +
+    '/' +
+    updateDateTime.getMonth() +
+    '/' +
+    updateDateTime.getFullYear();
 };
+
+getUpdateGoldTime();
 </script>
 
 <template>
@@ -13,7 +32,7 @@ const onClick = () => {
     <div class="row main border-content">
       <section class="w-full">
         <h1 class="headline highlight">GIÁ VÀNG HÔM NAY TRÊN TOÀN QUỐC</h1>
-        <p>Cập nhật lúc 10:05:22 03/08/2024</p>
+        <p>Cập nhật lúc: {{ updatedGoldTime }}</p>
       </section>
       <br />
       <section>

@@ -9,5 +9,6 @@ router.get("/", (req, res) => {
 });
 
 router.get("/data/total-gold-price", GoldController.retrieveTotalGoldPrice);
+router.get("/data/updated-at", GoldController.retrieveUpdateGoldTime);
 
 module.exports = router;
