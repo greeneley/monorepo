@@ -1,11 +1,11 @@
 <script setup>
-import Table from '@/components/Table.vue'
-import { useRouter } from 'vue-router'
-const router = useRouter()
+import Table from '@/components/GoldPriceTable.vue';
+import { useRouter } from 'vue-router';
+const router = useRouter();
 
 const onClick = () => {
-  router.push({ name: 'chart' })
-}
+  router.push({ name: 'chart' });
+};
 </script>
 
 <template>

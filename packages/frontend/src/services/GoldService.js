@@ -1,10 +1,10 @@
-import axios from 'axios'
-import { API } from '@/constants/index.js'
-const baseUrl = API.baseUrl
+import axios from 'axios';
+import { API } from '@/constants/index.js';
+const baseUrl = API.baseUrl;
 class GoldService {
   static getGoldPriceTable() {
-    return axios.get(baseUrl + '/v1/api/data')
+    return axios.get(baseUrl + '/v1/api/data/total-gold-price');
   }
 }
 
-export default GoldService
+export default GoldService;

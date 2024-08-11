@@ -1,31 +1,31 @@
 <script setup>
-import items from '../data/table.json'
-import { useCounterStore } from '@/stores/counter.js'
-import GoldService from '@/services/GoldService.js'
-const store = useCounterStore()
+import GoldService from '@/services/GoldService.js';
+import { ref } from 'vue';
+
 const headers = [
   { text: 'Loại vàng (VND/Lượng)', value: 'label', width: 400 },
   { text: 'Mua vào', value: 'buy', width: 150 },
   { text: 'Bán ra', value: 'sell', width: 150 }
-]
+];
+
+const goldPrices = ref([]);
 
 const onCustomBodyRow = (item, rowNumber) => {
-  return 'row'
-}
+  return 'row';
+};
 
-const onClick = () => {
-  store.increment()
-}
+const getGoldPriceTable = async () => {
+  const response = await GoldService.getGoldPriceTable();
+  goldPrices.value = response.data.data;
+};
 
-// async function getData() {
-//   const items = await GoldService.getGoldPriceTable()?.data
-// }
+getGoldPriceTable();
 </script>
 
 <template>
   <EasyDataTable
     :headers="headers"
-    :items="items"
+    :items="goldPrices"
     hide-footer
     alternating
     :body-row-class-name="onCustomBodyRow"
