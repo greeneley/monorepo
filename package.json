@@ -6,9 +6,9 @@
     "packages/backend"
   ],
   "scripts": {
-    "start": "run-s start:*",
-    "start:frontend": "lerna run serve --scope frontend",
-    "start:backend": "lerna run start --scope backend"
+    "start": "lerna run start --no-sort --parallel",
+    "start:frontend": "lerna run serve --parallel --scope frontend",
+    "start:backend": "lerna run start --parallel --scope backend"
   },
   "devDependencies": {
     "lerna": "^8.1.8",
