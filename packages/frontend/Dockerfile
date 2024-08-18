@@ -29,8 +29,9 @@ FROM ubuntu
 RUN apt-get update
 RUN apt-get install -y nginx nodejs
 RUN rm -v /etc/nginx/nginx.conf
-ADD nginx.conf /etc/nginx/
+ADD ./nginx.conf /etc/nginx/
 
 COPY --from=build /usr/src/app/dist /var/www/html
 EXPOSE 5173
-CMD ["service","nginx","start"]
+#CMD ["nginx","start"]
+CMD ["nginx", "-g", "daemon off;"]
