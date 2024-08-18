@@ -2,7 +2,6 @@ import axios from 'axios';
 import { API } from '@/constants/index.js';
 const baseUrl = API.baseUrl;
 
-console.log(process.env.NODE_ENV);
 class GoldService {
   static getGoldPriceTable() {
     return axios.get(baseUrl + '/v1/api/data/total-gold-price');

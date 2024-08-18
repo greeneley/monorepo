@@ -3,7 +3,7 @@ services:
   frontend:
     image: package/frontend
     ports:
-      - "5173:5173"
+      - "3005:3005"
     networks:
       - front-tier
       - back-tier

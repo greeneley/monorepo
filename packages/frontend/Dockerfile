@@ -32,6 +32,6 @@ RUN rm -v /etc/nginx/nginx.conf
 ADD ./nginx.conf /etc/nginx/
 
 COPY --from=build /usr/src/app/dist /var/www/html
-EXPOSE 5173
+EXPOSE 3005
 #CMD ["nginx","start"]
 CMD ["nginx", "-g", "daemon off;"]
