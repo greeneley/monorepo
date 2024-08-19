@@ -11,7 +11,7 @@ const headers = [
 
 const goldPrices = ref([]);
 
-const onCustomBodyRow = (item, rowNumber) => {
+const onCustomBodyRow = () => {
   return 'row';
 };
 

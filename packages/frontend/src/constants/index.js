@@ -1,4 +1,7 @@
 export const API = {
   // TODO
-  baseUrl: process.env.NODE_ENV === 'production' ? 'http://localhost:3001' : 'http://localhost:3001'
+  baseUrl:
+    process.env.NODE_ENV === 'production'
+      ? 'https://backend-latest-pxvf.onrender.com'
+      : 'http://localhost:3001'
 };
