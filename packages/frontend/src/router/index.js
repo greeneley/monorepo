@@ -1,6 +1,6 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '@/views/HomePage.vue'
-import NProgress from 'nprogress'
+import { createRouter, createWebHistory } from 'vue-router';
+import HomePage from '@/views/HomePage.vue';
+import NProgress from 'nprogress';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -8,7 +8,7 @@ const router = createRouter({
     {
       path: '/home',
       name: 'home',
-      component: HomeView
+      component: HomePage
     },
     {
       path: '/',
@@ -20,19 +20,19 @@ const router = createRouter({
       component: () => import('@/views/ChartPage.vue')
     }
   ]
-})
+});
 
 router.beforeResolve((to, from, next) => {
   // If this isn't an initial page load.
   if (to.name) {
     // Start the route progress bar.
-    NProgress.start()
+    NProgress.start();
   }
-  next()
-})
+  next();
+});
 
 router.afterEach(() => {
   // Complete the animation of the route progress bar.
-  NProgress.done()
-})
-export default router
+  NProgress.done();
+});
+export default router;

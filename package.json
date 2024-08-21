@@ -7,7 +7,7 @@
   ],
   "scripts": {
     "start": "lerna run start --no-sort --parallel",
-    "start:frontend": "lerna run serve --parallel --scope frontend",
+    "start:frontend": "lerna run start --parallel --scope frontend",
     "start:backend": "lerna run start --parallel --scope backend"
   },
   "devDependencies": {

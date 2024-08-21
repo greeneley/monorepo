@@ -11,6 +11,11 @@ export default defineConfig(({ mode }) => {
     define: {
       'process.env.NODE_ENV': JSON.stringify(mode)
     },
+    server: {
+      watch: {
+        usePolling: true
+      }
+    },
     plugins: [vueDevTools(), vue(), vueJsx()],
     resolve: {
       alias: {

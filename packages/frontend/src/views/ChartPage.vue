@@ -1,5 +1,5 @@
 <script setup>
-import ChartView from '@/components/ChartView.vue'
+import ChartView from '@/components/ChartView.vue';
 </script>
 
 <template>
@@ -41,11 +41,5 @@ import ChartView from '@/components/ChartView.vue'
   font-size: 2rem;
   text-transform: uppercase;
   font-weight: 600;
-}
-
-@media (min-width: 1200px) {
-  .container {
-    //max-width: 1140px;
-  }
 }
 </style>

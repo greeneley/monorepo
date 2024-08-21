@@ -1,38 +1,28 @@
 <script setup>
+import { ref, onMounted } from 'vue';
 import Table from '@/components/GoldPriceTable.vue';
-import { useRouter } from 'vue-router';
-import { ref } from 'vue';
 import GoldService from '@/services/GoldService.js';
-const router = useRouter();
 import { toDateFormat } from '../helper/parseDateTime.js';
+
 const updatedGoldTime = ref(null);
 
 const getUpdateGoldTime = async () => {
   const response = await GoldService.getUpdateGoldTime();
-
   const updateDateTime = toDateFormat(response.data.update_at);
-
-  updatedGoldTime.value =
-    updateDateTime.getHours() +
-    ':' +
-    updateDateTime.getMinutes() +
-    ' ngày ' +
-    updateDateTime.getUTCDate() +
-    '/' +
-    updateDateTime.getMonth() +
-    '/' +
-    updateDateTime.getFullYear();
+  updatedGoldTime.value = `${updateDateTime.getHours()}:${updateDateTime.getMinutes()} ngày ${updateDateTime.getUTCDate()}/${updateDateTime.getMonth() + 1}/${updateDateTime.getFullYear()}`;
 };
 
-getUpdateGoldTime();
+onMounted(getUpdateGoldTime);
 </script>
 
 <template>
-  <main class="container mt-14">
+  <main class="container">
     <div class="row main border-content">
       <section class="w-full">
         <h1 class="headline highlight">GIÁ VÀNG HÔM NAY TRÊN TOÀN QUỐC</h1>
-        <p>Cập nhật lúc: {{ updatedGoldTime }}</p>
+        <p>
+          Cập nhật lúc: <span class="text-red-600 font-bold">{{ updatedGoldTime }}</span>
+        </p>
       </section>
       <br />
       <section>
@@ -51,6 +41,7 @@ getUpdateGoldTime();
 .container {
   margin-left: auto;
   margin-right: auto;
+  width: 90%;
 }
 
 .row {
@@ -74,9 +65,11 @@ getUpdateGoldTime();
   font-weight: 600;
 }
 
-@media (min-width: 1200px) {
-  .container {
-    //max-width: 1140px;
+@media (max-width: 768px) {
+  .headline.highlight {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
   }
 }
 </style>
