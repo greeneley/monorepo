@@ -10,9 +10,9 @@ class GoldController {
     }
   };
 
-  retrieveUpdateGoldTime = async (req, res, next) => {
+  getUpdatedTime = async (req, res, next) => {
     try {
-      return res.status(200).json(await GoldService.retrieveUpdateGoldTime());
+      return res.status(200).json(await GoldService.getUpdatedTime());
     } catch (error) {
       next(error);
     }

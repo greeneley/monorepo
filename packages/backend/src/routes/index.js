@@ -8,7 +8,8 @@ router.get("/", (req, res) => {
   res.send("Hello world");
 });
 
-router.get("/data/total-gold-price", GoldController.retrieveTotalGoldPrice);
-router.get("/data/updated-at", GoldController.retrieveUpdateGoldTime);
+router.get("/gold-price", GoldController.retrieveTotalGoldPrice);
+router.get("/gold-price/last-updated", GoldController.getUpdatedTime);
+router.get("/gold-price/chart", GoldController.getUpdatedTime);
 
 module.exports = router;

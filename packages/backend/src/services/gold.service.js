@@ -33,7 +33,7 @@ class GoldService {
       });
   };
 
-  static retrieveUpdateGoldTime = async () => {
+  static getUpdatedTime = async () => {
     return await axios
       .request(config)
       .then((response) => {

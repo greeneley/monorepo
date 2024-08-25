@@ -2,14 +2,21 @@
 import { ref, onMounted } from 'vue';
 import Table from '@/components/GoldPriceTable.vue';
 import GoldService from '@/services/GoldService.js';
-import { toDateFormat } from '../helper/parseDateTime.js';
+import { formatTwoDigit, toDateFormat } from '../helper/parseDateTime.js';
 
 const updatedGoldTime = ref(null);
 
 const getUpdateGoldTime = async () => {
   const response = await GoldService.getUpdateGoldTime();
   const updateDateTime = toDateFormat(response.data.update_at);
-  updatedGoldTime.value = `${updateDateTime.getHours()}:${updateDateTime.getMinutes()} ngày ${updateDateTime.getUTCDate()}/${updateDateTime.getMonth() + 1}/${updateDateTime.getFullYear()}`;
+
+  const hour = formatTwoDigit(updateDateTime.getHours());
+  const minutes = formatTwoDigit(updateDateTime.getMinutes());
+  const date = formatTwoDigit(updateDateTime.getUTCDate());
+  const month = formatTwoDigit(updateDateTime.getMonth() + 1);
+  const year = updateDateTime.getFullYear();
+
+  updatedGoldTime.value = `${hour}:${minutes} ngày ${date}/${month}/${year}`;
 };
 
 onMounted(getUpdateGoldTime);
