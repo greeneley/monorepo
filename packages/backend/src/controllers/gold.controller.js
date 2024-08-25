@@ -17,6 +17,16 @@ class GoldController {
       next(error);
     }
   };
+
+  getGoldPriceChartByCompany = async (req, res, next) => {
+    try {
+      return res
+        .status(200)
+        .json(await GoldService.getGoldPriceChartByCompany(req.query.company));
+    } catch (error) {
+      next(error);
+    }
+  };
 }
 
 module.exports = new GoldController();

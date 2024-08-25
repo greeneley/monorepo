@@ -10,6 +10,6 @@ router.get("/", (req, res) => {
 
 router.get("/gold-price", GoldController.retrieveTotalGoldPrice);
 router.get("/gold-price/last-updated", GoldController.getUpdatedTime);
-router.get("/gold-price/chart", GoldController.getUpdatedTime);
+router.get("/gold-price/chart", GoldController.getGoldPriceChartByCompany);
 
 module.exports = router;

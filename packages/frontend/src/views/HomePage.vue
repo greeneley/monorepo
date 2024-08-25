@@ -5,9 +5,12 @@ import GoldService from '@/services/GoldService.js';
 import { formatTwoDigit, toDateFormat } from '../helper/parseDateTime.js';
 
 const updatedGoldTime = ref(null);
+const isLoading = ref(false);
 
 const getUpdateGoldTime = async () => {
+  isLoading.value = true;
   const response = await GoldService.getUpdateGoldTime();
+
   const updateDateTime = toDateFormat(response.data.update_at);
 
   const hour = formatTwoDigit(updateDateTime.getHours());
@@ -17,6 +20,7 @@ const getUpdateGoldTime = async () => {
   const year = updateDateTime.getFullYear();
 
   updatedGoldTime.value = `${hour}:${minutes} ngày ${date}/${month}/${year}`;
+  isLoading.value = false;
 };
 
 onMounted(getUpdateGoldTime);
@@ -28,7 +32,9 @@ onMounted(getUpdateGoldTime);
       <section class="w-full">
         <h1 class="headline highlight">GIÁ VÀNG HÔM NAY TRÊN TOÀN QUỐC</h1>
         <p>
-          Cập nhật lúc: <span class="text-red-600 font-bold">{{ updatedGoldTime }}</span>
+          Cập nhật lúc:
+          <span v-if="isLoading" class="italic">Đang cập nhật</span>
+          <span v-else class="text-red-600 font-bold">{{ updatedGoldTime }}</span>
         </p>
       </section>
       <br />
