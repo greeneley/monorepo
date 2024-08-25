@@ -4,7 +4,7 @@ const GoldService = require("../services/gold.service");
 class GoldController {
   retrieveTotalGoldPrice = async (req, res, next) => {
     try {
-      return res.status(200).json(await GoldService.retrieveTotalGoldPrice());
+      return res.status(200).json(await GoldService.fetchGoldPrices());
     } catch (error) {
       next(error);
     }
@@ -12,7 +12,7 @@ class GoldController {
 
   getUpdatedTime = async (req, res, next) => {
     try {
-      return res.status(200).json(await GoldService.getUpdatedTime());
+      return res.status(200).json(await GoldService.fetchUpdatedTime());
     } catch (error) {
       next(error);
     }
@@ -22,7 +22,9 @@ class GoldController {
     try {
       return res
         .status(200)
-        .json(await GoldService.getGoldPriceChartByCompany(req.query.company));
+        .json(
+          await GoldService.fetchGoldPriceChartByCompany(req.query.company),
+        );
     } catch (error) {
       next(error);
     }

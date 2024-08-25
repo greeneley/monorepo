@@ -3,7 +3,7 @@ import { ref } from 'vue';
 import GoldService from '@/services/GoldService.js';
 import { formatTwoDigit } from '@/helper/parseDateTime.js';
 
-const text = 'Biểu đồ giá vàng SJC 1 tháng qua';
+const chartTitle = 'Biểu đồ giá vàng SJC 1 tháng qua';
 const chartOptions = ref({
   chart: {
     zooming: {
@@ -12,8 +12,11 @@ const chartOptions = ref({
       }
     }
   },
+  scrollbar: {
+    enabled: false
+  },
   title: {
-    text: text
+    text: chartTitle
   },
   legend: {
     enabled: true,
@@ -28,9 +31,6 @@ const chartOptions = ref({
     line: {
       dataLabels: {
         enabled: true
-        // formatter: function () {
-        //   return new Intl.NumberFormat('en-us').format(this.y);
-        // }
       }
     }
   },
@@ -60,8 +60,9 @@ const chartOptions = ref({
   }
 });
 const getDataChart = async () => {
-  const response = await GoldService.getGoldPriceChartByCompany('SJC');
-  const dataList = response.data.data;
+  const {
+    data: { data: dataList }
+  } = await GoldService.fetchGoldPriceChartByCompany('SJC');
   const buyArray = [];
   const sellArray = [];
   dataList.forEach(({ dateTimeStamp, buy, sell }) => {

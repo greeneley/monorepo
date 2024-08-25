@@ -11,7 +11,7 @@ class GoldService {
     return axios.get(baseUrl + '/v1/api/gold-price/last-updated');
   }
 
-  static getGoldPriceChartByCompany(company) {
+  static fetchGoldPriceChartByCompany(company) {
     return axios.get(baseUrl + '/v1/api/gold-price/chart', { params: { company } });
   }
 }

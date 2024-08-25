@@ -8,8 +8,9 @@ const config = {
   maxBodyLength: Infinity,
   headers: {},
 };
+
 class GoldService {
-  static retrieveTotalGoldPrice = async () => {
+  static fetchGoldPrices = async () => {
     return await axios
       .request(config)
       .then((response) => {
@@ -27,48 +28,74 @@ class GoldService {
             };
           },
         );
-        return { data: filteredGoldData };
+        return {
+          status: "success",
+          message: "Gold prices fetched successfully",
+          data: filteredGoldData,
+        };
       })
       .catch((error) => {
-        console.log(error);
+        console.error("Error fetching gold prices:", error);
+        return {
+          status: "error",
+          message: "Failed to fetch gold prices",
+          error: error.message,
+        };
       });
   };
 
-  static getUpdatedTime = async () => {
+  static fetchUpdatedTime = async () => {
     return await axios
       .request(config)
       .then((response) => {
         return {
+          status: "success",
+          message: "Updated time fetched successfully",
           update_at: response.data?.data?.updated_at,
         };
       })
       .catch((error) => {
-        console.log(error);
+        console.error("Error fetching updated time:", error);
+        return {
+          status: "error",
+          message: "Failed to fetch updated time",
+          error: error.message,
+        };
       });
   };
 
-  static getGoldPriceChartByCompany = async (company) => {
+  static fetchGoldPriceChartByCompany = async (company) => {
     return await axios
       .request(config)
       .then((response) => {
         const searchingString = GOLD_COMPANY[company];
         const dataListChart = response.data?.data?.data?.chart;
         const historyPrice = dataListChart[searchingString];
-        const formatted = historyPrice.map((item) => {
-          const dateString = item["date_label"];
-          const [day, month, year] = dateString.split("/");
-          const dateTimeStamp = Date.UTC(year, month, day, 8, 0, 0);
-          return {
-            buy: item["buy"],
-            dateTimeStamp,
-            label: item["label"],
-            sell: item["sell"],
-          };
-        });
-        return { data: formatted };
+        const formatted = historyPrice.map(
+          ({ date_label, buy, sell, label }) => {
+            const [day, month, year] = date_label.split("/");
+            const dateTimeStamp = Date.UTC(year, month, day, 8, 0, 0);
+            return {
+              buy,
+              dateTimeStamp,
+              label,
+              sell,
+            };
+          },
+        );
+        return {
+          status: "success",
+          message: "Gold price history fetched successfully",
+          data: formatted,
+        };
       })
       .catch((error) => {
-        console.log(error);
+        console.error("Error fetching gold price chart:", error);
+        return {
+          status: "error",
+          message: "Failed to fetch gold price history",
+          error: error.message,
+        };
       });
   };
 }
