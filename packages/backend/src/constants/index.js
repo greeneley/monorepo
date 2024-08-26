@@ -1,5 +1,5 @@
 const GOLD_COMPANY = {
-  SJC: "sjc_2c_1c_5_phan",
+  SJC: "sjc_1l_10l",
   PNJ: "tphcm_pnj",
 };
 

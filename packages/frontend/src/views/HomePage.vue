@@ -1,8 +1,9 @@
 <script setup>
 import { ref, onMounted } from 'vue';
-import Table from '@/components/GoldPriceTable.vue';
+import GoldTable from '@/components/GoldPriceTable.vue';
 import GoldService from '@/services/GoldService.js';
 import { formatTwoDigit, toDateFormat } from '../helper/parseDateTime.js';
+import KimKhanhTable from '@/components/KimKhanhTable.vue';
 
 const updatedGoldTime = ref(null);
 const isLoading = ref(false);
@@ -39,7 +40,15 @@ onMounted(getUpdateGoldTime);
       </section>
       <br />
       <section>
-        <Table />
+        <GoldTable />
+      </section>
+      <br />
+      <section>
+        <h4 class="headline highlight">GIÁ VÀNG KIM KHÁNH VIỆT HÙNG</h4>
+      </section>
+      <br />
+      <section>
+        <KimKhanhTable />
       </section>
       <br />
     </div>
@@ -54,6 +63,7 @@ onMounted(getUpdateGoldTime);
 .container {
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;
   width: 90%;
 }
 
