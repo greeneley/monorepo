@@ -34,7 +34,7 @@ onMounted(getUpdateGoldTime);
         <h1 class="headline highlight">GIÁ VÀNG HÔM NAY TRÊN TOÀN QUỐC</h1>
         <p>
           Cập nhật lúc:
-          <span v-if="isLoading" class="italic">Đang cập nhật</span>
+          <span v-if="isLoading" class="italic">Đang tải...</span>
           <span v-else class="text-red-600 font-bold">{{ updatedGoldTime }}</span>
         </p>
       </section>
