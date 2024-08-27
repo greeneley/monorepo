@@ -17,7 +17,7 @@ class GoldKimKhanhVietHungService {
     const convertPriceToNumber = (input) =>
       Number(input.replaceAll(".", "").replace("đ", "")) / 100;
 
-    const response = [
+    return [
       {
         id: 0,
         name: "vang_khau_9999",
@@ -40,10 +40,6 @@ class GoldKimKhanhVietHungService {
         sell: convertPriceToNumber(crawlData[10]),
       },
     ];
-
-    return {
-      data: response,
-    };
   };
 }
 

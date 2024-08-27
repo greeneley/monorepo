@@ -1,10 +1,10 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "src/app.js",
   "scripts": {
-    "start": "nodemon src/index.js",
-    "build": "pm2 start src/index.js"
+    "start": "nodemon --watch src/app.js",
+    "build": "pm2 start src/app.js"
   },
   "dependencies": {
     "axios": "^1.7.3",
@@ -12,11 +12,15 @@
     "crawlee": "^3.11.1",
     "dotenv": "^16.4.5",
     "express": "^4.17.1",
+    "http-status": "^1.4.0",
+    "http-status-codes": "^2.3.0",
     "jsdom": "^24.1.2",
     "playwright": "^1.46.1",
     "pm2": "^5.4.2"
   },
   "devDependencies": {
+    "compression": "^1.7.4",
+    "helmet": "^7.1.0",
     "nodemon": "^3.1.4"
   }
 }

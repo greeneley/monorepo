@@ -12,7 +12,7 @@ const getUpdateGoldTime = async () => {
   isLoading.value = true;
   const response = await GoldService.getUpdateGoldTime();
 
-  const updateDateTime = toDateFormat(response.data.update_at);
+  const updateDateTime = toDateFormat(response.data.metadata);
 
   const hour = formatTwoDigit(updateDateTime.getHours());
   const minutes = formatTwoDigit(updateDateTime.getMinutes());

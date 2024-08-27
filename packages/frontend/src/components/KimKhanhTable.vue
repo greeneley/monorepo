@@ -19,7 +19,7 @@ const getGoldPriceTable = async () => {
   loading.value = true;
   const response = await KimKhanhVietHungGoldService.getGoldPriceTable();
   loading.value = false;
-  goldPrices.value = response.data.data;
+  goldPrices.value = response.data.metadata;
 };
 
 getGoldPriceTable();

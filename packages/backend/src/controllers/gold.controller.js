@@ -1,33 +1,29 @@
 "use strict";
 
 const GoldService = require("../services/gold.service");
+const { SuccessResponse } = require("../core/success.response");
 class GoldController {
-  retrieveTotalGoldPrice = async (req, res, next) => {
-    try {
-      return res.status(200).json(await GoldService.fetchGoldPrices());
-    } catch (error) {
-      next(error);
-    }
+  fetchGoldPrices = async (req, res) => {
+    new SuccessResponse({
+      message: "Retrieve successfully gold price",
+      metadata: await GoldService.fetchGoldPrices(),
+    }).send(res);
   };
 
   getUpdatedTime = async (req, res, next) => {
-    try {
-      return res.status(200).json(await GoldService.fetchUpdatedTime());
-    } catch (error) {
-      next(error);
-    }
+    new SuccessResponse({
+      message: "Get successfully",
+      metadata: await GoldService.fetchUpdatedTime(),
+    }).send(res);
   };
 
   getGoldPriceChartByCompany = async (req, res, next) => {
-    try {
-      return res
-        .status(200)
-        .json(
-          await GoldService.fetchGoldPriceChartByCompany(req.query.company),
-        );
-    } catch (error) {
-      next(error);
-    }
+    new SuccessResponse({
+      message: "Get successfully data for chart",
+      metadata: await GoldService.fetchGoldPriceChartByCompany(
+        req.query.company,
+      ),
+    }).send(res);
   };
 }
 
