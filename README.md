@@ -4,3 +4,10 @@ This project is a web application that displays the current gold prices. It prov
 
 ## Technology Used
 The web application is built using Vue.js for the frontend and Node.js for the backend. It utilizes Axios for API requests and Vue Router for navigation.
+
+
+## Command line 
+
+frontend: docker build -t haidinhthanh/frontend . --network=host --> docker push haidinhthanh/frontend 
+backend: docker build -t haidinhthanh/backend . --> docker push haidinhthanh/backend                                                                                          
+
