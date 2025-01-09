@@ -2,7 +2,7 @@
   <nav id="header-top" class="navbar">
     <div class="nav-logo">
       <div class="container">
-        <a class="navbar-brand m-auto" href="/">GIÁ VÀNG</a>
+        <a class="navbar-brand m-auto" href="/packages/frontend/public">GIÁ VÀNG</a>
       </div>
     </div>
     <div class="nav-sub">

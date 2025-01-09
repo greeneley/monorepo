@@ -6,3 +6,7 @@ node_modules/!/.idea/
 node_modules
 
 packages/frontend/node_modules
+
+*.xml
+**/*.xml
+.idea/**/*

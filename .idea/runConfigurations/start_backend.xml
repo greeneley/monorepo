@@ -5,7 +5,7 @@
     <scripts>
       <script value="start:backend" />
     </scripts>
-    <node-interpreter value="wsl://Ubuntu-22.04@/home/htdinh/.nvm/versions/node/v18.20.4/bin/node" />
+    <node-interpreter value="node" />
     <envs />
     <method v="2" />
   </configuration>

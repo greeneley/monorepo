@@ -78,7 +78,7 @@ onMounted(getUpdateGoldTime);
 .border-content {
   border: none;
   border-radius: 6px;
-  padding: 1rem;
+  padding: 1.5rem;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
 }
 
