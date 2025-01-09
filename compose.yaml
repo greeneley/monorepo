@@ -1,4 +1,4 @@
-version: '3'
+version: "3"
 services:
   frontend:
     image: package/frontend
@@ -11,7 +11,7 @@ services:
     image: package/backend
     ports:
       - "3001:3001"
-    networks: 
+    networks:
       - back-tier
 networks:
   front-tier: {}
