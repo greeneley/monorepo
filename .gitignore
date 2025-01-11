@@ -2,11 +2,11 @@ node_modules/!/.idea/
 !/.idea/prettier.xml
 
 /.idea/**
-
+.idea/**
 node_modules
-
+.gitignore
 packages/frontend/node_modules
-
+packages/backend-nestjs/dist
 *.xml
 **/*.xml
 .idea/**/*
