@@ -3,7 +3,8 @@
 	"private": true,
 	"workspaces": [
 		"packages/frontend",
-		"packages/backend"
+		"packages/backend",
+		"packages/backend-nestjs"
 	],
 	"scripts": {
 		"start": "lerna run start --no-sort --parallel",
