@@ -1,6 +1,6 @@
 import { Injectable, Logger } from '@nestjs/common';
 import { HttpService } from '@nestjs/axios';
-import { catchError, firstValueFrom } from 'rxjs';
+import { firstValueFrom } from 'rxjs';
 import { AxiosError } from 'axios';
 
 @Injectable()
@@ -24,7 +24,9 @@ export class GoldService {
       const { new: newGoldItems, old: oldGoldItems } = goldData;
       const listGoldTypes = Object.keys(newGoldItems);
 
-      return listGoldTypes.map((goldType, index) => this.mapGoldType(goldType, index, newGoldItems, oldGoldItems));
+      return listGoldTypes.map((goldType, index) =>
+        this.mapGoldType(goldType, index, newGoldItems, oldGoldItems)
+      );
     } catch (error) {
       this.logger.error(error instanceof AxiosError ? error.response.data : error.message);
       throw new Error('An error happened while fetching gold data');

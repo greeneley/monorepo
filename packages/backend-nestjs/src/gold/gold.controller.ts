@@ -1,12 +1,14 @@
-import { Controller, Get } from '@nestjs/common';
+import { Controller, Get, Query } from '@nestjs/common';
 import { GoldService } from './gold.service';
+import { GoldServiceFactory } from './gold.service.factory';
 
 @Controller('gold')
 export class GoldController {
-  constructor(private readonly goldService: GoldService) {}
+  constructor(private readonly goldServiceFactory: GoldServiceFactory) {}
 
-  @Get('price')
-  getGoldPrice() {
-    return this.goldService.findAll();
+  @Get()
+  getGoldPrice(@Query('type') type: string) {
+    const service = this.goldServiceFactory.createService(type);
+    return service.findAll();
   }
 }
