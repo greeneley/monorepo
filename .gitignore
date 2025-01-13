@@ -7,6 +7,7 @@ node_modules
 .gitignore
 packages/frontend/node_modules
 packages/backend-nestjs/dist
+packages/backend-nestjs/.env
 *.xml
 **/*.xml
 .idea/**/*
