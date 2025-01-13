@@ -14,7 +14,7 @@ export class ScheduleTaskService {
     private readonly kimKhanhGoldService: KimKhanhGoldService
   ) {}
 
-  @Cron(CronExpression.EVERY_10_SECONDS)
+  @Cron(CronExpression.EVERY_DAY_AT_10AM)
   async handleCron() {
     this.logger.log('Starting scheduled task...');
     const data = await this.kimKhanhGoldService.findAll();

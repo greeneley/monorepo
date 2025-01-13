@@ -7,6 +7,10 @@ class GoldService {
     return axios.get(baseUrl + '/v1/api/gold-price');
   }
 
+  static getGoldPrice(type) {
+    return axios.get(baseUrl + '/gold', { params: { type } });
+  }
+
   static getUpdateGoldTime() {
     return axios.get(baseUrl + '/v1/api/gold-price/last-updated');
   }
