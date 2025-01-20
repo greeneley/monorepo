@@ -4,7 +4,7 @@ const baseUrl = API.baseUrl;
 
 class KimKhanhVietHungService {
   static getGoldPriceTable() {
-    return axios.get(baseUrl + '/v1/api/gold-price/kim-khanh-viet-hung');
+    return axios.get(baseUrl + '/gold', { params: { type } });
   }
 }
 

@@ -11,8 +11,8 @@ const isLoading = ref(false);
 const getUpdateGoldTime = async () => {
   isLoading.value = true;
   const response = await GoldService.getUpdateGoldTime();
-
-  const updateDateTime = toDateFormat(response.data.metadata);
+  console.log({ response });
+  const updateDateTime = toDateFormat(response.data);
 
   const hour = formatTwoDigit(updateDateTime.getHours());
   const minutes = formatTwoDigit(updateDateTime.getMinutes());

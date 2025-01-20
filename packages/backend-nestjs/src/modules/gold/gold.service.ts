@@ -33,6 +33,14 @@ export class GoldService {
     }
   }
 
+  async getUpdatedGoldTime(): Promise<any> {
+    const { data } = await firstValueFrom(
+      this.httpService.get('https://gw.vnexpress.net/cr/?name=tygia_vangv202206')
+    );
+
+    return data?.data?.updated_at;
+  }
+
   private mapGoldType(goldType: string, index: number, newGoldItems: any, oldGoldItems: any) {
     const detailNewGold = newGoldItems[goldType];
     const detailOldGold = oldGoldItems[goldType];

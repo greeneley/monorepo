@@ -12,7 +12,7 @@ class GoldService {
   }
 
   static getUpdateGoldTime() {
-    return axios.get(baseUrl + '/v1/api/gold-price/last-updated');
+    return axios.get(baseUrl + '/gold/updated-time');
   }
 
   static fetchGoldPriceChartByCompany(company) {

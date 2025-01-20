@@ -11,4 +11,10 @@ export class GoldController {
     const service = this.goldServiceFactory.createService(type);
     return service.findAll();
   }
+
+  @Get('/updated-time')
+  getUpdatedGoldTime() {
+    const service = this.goldServiceFactory.createService('common');
+    return (service as GoldService).getUpdatedGoldTime();
+  }
 }

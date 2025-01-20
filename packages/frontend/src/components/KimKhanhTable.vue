@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from 'vue';
 import KimKhanhVietHungGoldService from '@/services/KimKhanhVietHungGoldService.js';
+import GoldService from '@/services/GoldService.js';
 
 const headers = [
   { text: 'Loại vàng (VND/Lượng)', value: 'label' },
@@ -17,12 +18,22 @@ const onCustomBodyRow = () => {
 
 const getGoldPriceTable = async () => {
   loading.value = true;
-  const response = await KimKhanhVietHungGoldService.getGoldPriceTable();
+  const response = await GoldService.getGoldPrice('kim-khanh');
   loading.value = false;
-  goldPrices.value = response.data.metadata;
+  goldPrices.value = response.data.map((item) => {
+    return {
+      ...item,
+      buy: item.buy * 1000,
+      sell: item.sell * 1000
+    };
+  });
 };
 
 getGoldPriceTable();
+
+const formatPrice = (price) => {
+  return new Intl.NumberFormat('vi-VN').format(price);
+};
 </script>
 
 <template>
@@ -34,11 +45,9 @@ getGoldPriceTable();
     :loading="loading"
     :body-row-class-name="onCustomBodyRow"
   >
-    <template #item-buy="item"> {{ new Intl.NumberFormat('en-us').format(item.buy) }}</template>
-    <template #item-sell="item"> {{ new Intl.NumberFormat('en-us').format(item.sell) }}</template>
-    <template #item-spread="item">
-      {{ new Intl.NumberFormat('en-us').format(item.sell - item.buy) }}</template
-    >
+    <template #item-buy="item"> {{ formatPrice(item.buy) }}</template>
+    <template #item-sell="item"> {{ formatPrice(item.sell) }}</template>
+    <template #item-spread="item"> {{ formatPrice(item.sell - item.buy) }}</template>
   </EasyDataTable>
 </template>
 
