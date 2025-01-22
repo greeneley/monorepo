@@ -2,6 +2,7 @@ import { Injectable, Logger } from '@nestjs/common';
 import { AxiosError } from 'axios';
 import { JSDOM } from 'jsdom';
 import { gotScraping } from 'crawlee';
+import { KIM_KHANH_GOLD_API } from '../../config/config';
 
 @Injectable()
 export class KimKhanhGoldService {
@@ -11,7 +12,7 @@ export class KimKhanhGoldService {
     try {
       const crawlData = [];
       const { body } = await gotScraping({
-        url: 'https://kimkhanhviethung.vn/tra-cuu-gia-vang.html'
+        url: KIM_KHANH_GOLD_API
       });
 
       const dom = new JSDOM(body);

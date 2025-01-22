@@ -60,12 +60,10 @@ const chartOptions = ref({
   }
 });
 const getDataChart = async () => {
-  const {
-    data: { metadata }
-  } = await GoldService.fetchGoldPriceChartByCompany('SJC');
+  const { data } = await GoldService.fetchGoldPriceChartByCompany('SJC');
   const buyArray = [];
   const sellArray = [];
-  metadata.forEach(({ dateTimeStamp, buy, sell }) => {
+  data.forEach(({ dateTimeStamp, buy, sell }) => {
     buyArray.push([dateTimeStamp, buy]);
     sellArray.push([dateTimeStamp, sell]);
   });

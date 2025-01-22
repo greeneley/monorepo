@@ -2,18 +2,19 @@ import { Injectable, Logger } from '@nestjs/common';
 import { HttpService } from '@nestjs/axios';
 import { firstValueFrom } from 'rxjs';
 import { AxiosError } from 'axios';
+import { COMMON_GOLD_API } from '../../config/config';
 
 @Injectable()
 export class GoldService {
   private readonly logger = new Logger(GoldService.name);
 
+  private url = COMMON_GOLD_API;
+
   constructor(private readonly httpService: HttpService) {}
 
   async findAll(): Promise<any> {
     try {
-      const { data } = await firstValueFrom(
-        this.httpService.get('https://gw.vnexpress.net/cr/?name=tygia_vangv202206')
-      );
+      const { data } = await firstValueFrom(this.httpService.get(this.url));
 
       const goldData = data?.data?.data?.gold;
       if (!goldData) {
@@ -34,9 +35,7 @@ export class GoldService {
   }
 
   async getUpdatedGoldTime(): Promise<any> {
-    const { data } = await firstValueFrom(
-      this.httpService.get('https://gw.vnexpress.net/cr/?name=tygia_vangv202206')
-    );
+    const { data } = await firstValueFrom(this.httpService.get(this.url));
 
     return data?.data?.updated_at;
   }
