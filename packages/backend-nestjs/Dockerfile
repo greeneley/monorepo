@@ -9,8 +9,10 @@ USER root
 
 COPY . .
 RUN npm install
-RUN npm install pm2 -g
+#RUN npm install pm2 -g
 
-EXPOSE 3001
+EXPOSE 3002
 
-CMD [ "pm2-runtime", "npm", "--", "start" ]
+#CMD [ "pm2-runtime", "npm", "--", "start" ]
+CMD ["npm", "run", "build"]
+CMD ["npm", "run", "start:prod"]

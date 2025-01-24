@@ -10,3 +10,7 @@ The web application is built using Vue.js for the frontend and Node.js for the b
 
 frontend: docker build -t haidinhthanh/frontend . --network=host --> docker push haidinhthanh/frontend
 backend: docker build -t haidinhthanh/backend . --> docker push haidinhthanh/backend
+
+
+- Để run image:  docker run -d -p 3005:3005 haidinhthanh/frontend
+- 

@@ -1,10 +1,9 @@
 <script setup>
 import { ref } from 'vue';
-import KimKhanhVietHungGoldService from '@/services/KimKhanhVietHungGoldService.js';
 import GoldService from '@/services/GoldService.js';
 
 const headers = [
-  { text: 'Loại vàng (VND/Lượng)', value: 'label' },
+  { text: 'Loại vàng', value: 'label' },
   { text: 'Mua vào', value: 'buy' },
   { text: 'Bán ra', value: 'sell' },
   { text: 'Chênh lệch', value: 'spread' }
@@ -37,39 +36,54 @@ const formatPrice = (price) => {
 </script>
 
 <template>
-  <EasyDataTable
-    :headers="headers"
-    :items="goldPrices"
-    hide-footer
-    alternating
-    :loading="loading"
-    :body-row-class-name="onCustomBodyRow"
-  >
-    <template #item-buy="item"> {{ formatPrice(item.buy) }}</template>
-    <template #item-sell="item"> {{ formatPrice(item.sell) }}</template>
-    <template #item-spread="item"> {{ formatPrice(item.sell - item.buy) }}</template>
-  </EasyDataTable>
+  <div class="table-container mx-auto">
+    <EasyDataTable
+      :headers="headers"
+      :items="goldPrices"
+      hide-footer
+      alternating
+      :loading="loading"
+      :body-row-class-name="onCustomBodyRow"
+      :table-min-height="100"
+    >
+      <template #item-buy="item"> {{ formatPrice(item.buy) }}</template>
+      <template #item-sell="item"> {{ formatPrice(item.sell) }}</template>
+      <template #item-spread="item"> {{ formatPrice(item.sell - item.buy) }}</template>
+    </EasyDataTable>
+  </div>
 </template>
 
 <style>
+.table-container {
+  width: 100%;
+  max-width: 90vw;
+  overflow-x: auto;
+}
+
 .header {
-  height: 50px;
-  font-size: 16px;
+  padding: 0.75rem;
 }
 
 .header-text {
   font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .row {
   --easy-table-body-row-height: 50px;
-  --easy-table-body-row-font-size: 16px;
+  --easy-table-body-row-font-size: 0.875rem;
+  --easy-table-body-item-padding: 1rem 1rem;
 }
 
-@media (max-width: 768px) {
-  .header {
-    height: 40px;
-    font-size: 12px;
+@media (max-width: 639px) {
+  .header-text {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+
+  .row {
+    --easy-table-body-row-font-size: 0.75rem;
   }
 }
 </style>

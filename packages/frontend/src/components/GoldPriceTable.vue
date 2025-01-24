@@ -54,7 +54,7 @@ const formatDifference = (difference) => {
 </script>
 
 <template>
-  <div class="mx-auto">
+  <div class="mx-auto table-container">
     <div class="bg-white border-2 overflow-hidden">
       <div class="overflow-x-auto">
         <div v-if="loading" class="flex justify-center items-center py-10">
@@ -175,3 +175,10 @@ const formatDifference = (difference) => {
     </div>
   </div>
 </template>
+<style>
+.table-container {
+  max-width: 90vw; /* Ensure it doesn't overflow the viewport */
+  overflow-x: auto; /* Allow horizontal scrolling if needed */
+  width: 100%;
+}
+</style>
