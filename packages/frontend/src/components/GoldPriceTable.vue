@@ -78,22 +78,22 @@ const formatDifference = (difference) => {
         <table v-else class="min-w-full divide-y divide-gray-200">
           <thead class="">
             <tr>
-              <th class="px-4 sm:px-6 py-3 text-left text-xs sm:text-base font-bold text-gray-900">
+              <th class="px-3 sm:px-6 py-2 text-left text-xs sm:text-base font-bold text-gray-900">
                 Loại vàng
               </th>
-              <th class="px-4 sm:px-6 py-3 text-right text-xs sm:text-base font-bold text-gray-900">
+              <th class="px-3 sm:px-6 py-2 text-right text-xs sm:text-base font-bold text-gray-900">
                 Mua vào
               </th>
-              <th class="px-4 sm:px-6 py-3 text-right text-xs sm:text-base font-bold text-gray-900">
+              <th class="px-3 sm:px-6 py-2 text-right text-xs sm:text-base font-bold text-gray-900">
                 Bán ra
               </th>
               <th
-                class="px-4 sm:px-6 py-3 text-center text-xs sm:text-base font-bold text-gray-900 hidden sm:table-cell"
+                class="px-3 sm:px-6 py-2 text-center text-xs sm:text-base font-bold text-gray-900"
               >
                 Chênh lệch
               </th>
               <th
-                class="px-4 sm:px-6 py-3 text-center text-xs sm:text-base font-bold text-gray-900"
+                class="px-3 sm:px-6 py-2 text-center text-xs sm:text-base font-bold text-gray-900"
               >
                 Xu hướng
               </th>
@@ -105,10 +105,10 @@ const formatDifference = (difference) => {
               :key="item.type"
               class="hover:bg-gray-50 transition-colors duration-150"
             >
-              <td class="px-4 sm:px-6 py-4 text-xs sm:text-sm font-normal text-gray-900">
+              <td class="px-3 sm:px-6 py-4 text-xs sm:text-sm font-normal text-gray-900">
                 {{ item.label }}
               </td>
-              <td class="px-4 sm:px-6 py-4 text-right">
+              <td class="px-3 sm:px-6 py-4 text-right">
                 <div class="flex flex-col items-end">
                   <span class="text-xs sm:text-sm font-normal text-gray-900">{{
                     formatPrice(item.buyPrice)
@@ -123,7 +123,7 @@ const formatDifference = (difference) => {
                   </span>
                 </div>
               </td>
-              <td class="px-4 sm:px-6 py-4 text-right">
+              <td class="px-3 sm:px-6 py-4 text-right">
                 <div class="flex flex-col items-end">
                   <span class="text-xs sm:text-sm font-normal text-gray-900">{{
                     formatPrice(item.sellPrice)
@@ -138,14 +138,14 @@ const formatDifference = (difference) => {
                   </span>
                 </div>
               </td>
-              <td class="px-4 sm:px-6 py-4 text-center hidden sm:table-cell">
+              <td class="px-3 sm:px-6 py-4 text-xs sm:text-base text-center">
                 <span
                   :class="['inline-flex items-center px-2 py-0.5 rounded-full text-md font-normal']"
                 >
                   {{ formatPrice(item.difference) }}
                 </span>
               </td>
-              <td class="px-4 sm:px-6 py-4">
+              <td class="px-3 sm:px-6 py-4">
                 <div class="flex justify-center">
                   <div
                     :class="[
